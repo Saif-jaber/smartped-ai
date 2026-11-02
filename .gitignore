@@ -1,0 +1,31 @@
+# Dataset and videos
+dataset/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Model weights and training outputs
+*.pt
+*.pth
+*.onnx
+runs/
+checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
