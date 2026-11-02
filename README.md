@@ -1,6 +1,16 @@
       # SmartPed AI
 ### Intelligent Pedestrian Detection, Crossing Intention Prediction and Safety Risk Assessment
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+`Computer Vision` · `Object Detection` · `Object Tracking` · `Pedestrian Intention Prediction` · `Collision Risk Assessment` · `Intelligent Transportation Systems` · `Deep Learning`
+
 SmartPed AI is an AI-powered pedestrian safety system designed to analyze traffic video footage, detect and track pedestrians and vehicles, predict pedestrian crossing intentions, and assess potential pedestrian-vehicle collision risks.
 
 The project combines computer vision, object tracking, and machine learning to support safer urban environments through intelligent traffic monitoring and early risk identification.
