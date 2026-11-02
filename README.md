@@ -73,6 +73,18 @@ The dataset is intended for research and development. Its camera viewpoint and r
 
 **Note:** The dataset is not included in this repository because of its size and separate access and licensing conditions.
 
+### Dataset ingestion and validation
+
+The first data milestone parses PIE spatial annotations, pedestrian attributes and intention labels, ego-vehicle telemetry, and annotated-frame CSVs. It probes video metadata when `ffprobe` is available and does not extract video frames.
+
+Run from the project root:
+
+```powershell
+python -m smartped_ai.data.cli
+```
+
+Paths and recording-set split assignments are configured in `configs/pie_dataset.json`. Generated normalized records, manifests, statistics, and the validation report are written under `artifacts/dataset_validation/`, outside the original dataset directory. The default split keeps each `setXX` together; with only six recording groups, validation and test estimates have limited independent samples.
+
 ## Risk Assessment
 
 The system aims to estimate potential collision risks by analyzing:

@@ -6,6 +6,9 @@ dataset/
 *.mkv
 *.zip
 
+#analysis
+SMARTPED_TECHNICAL_ANALYSIS.md
+
 # Python
 __pycache__/
 *.py[cod]
@@ -19,6 +22,9 @@ env/
 *.onnx
 runs/
 checkpoints/
+
+# Generated dataset ingestion outputs
+artifacts/dataset_validation/
 
 # Environment variables and secrets
 .env

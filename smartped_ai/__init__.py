@@ -1,0 +1,1 @@
+"""SmartPed AI project package."""

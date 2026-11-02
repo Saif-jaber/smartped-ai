@@ -1,0 +1,15 @@
+{
+  "dataset_root": "../dataset",
+  "output_dir": "../artifacts/dataset_validation",
+  "video_dir": "PIE_clips",
+  "spatial_dir": "annotations",
+  "attributes_dir": "annotations_attributes",
+  "telemetry_dir": "annotations_vehicle",
+  "ffprobe_executable": "ffprobe",
+  "ffprobe_timeout_seconds": 30,
+  "split_assignments": {
+    "train": ["set01", "set02", "set03", "set05"],
+    "validation": ["set06"],
+    "test": ["set04"]
+  }
+}
