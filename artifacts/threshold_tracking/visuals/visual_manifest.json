@@ -1,0 +1,41 @@
+[
+  {
+    "frame_index": 1331,
+    "ground_truth_boxes": 2,
+    "median_normalized_box_area": 0.00013145061728395062,
+    "occluded_boxes": 2,
+    "category": "small_or_distant",
+    "selection_reason": "Small/distant candidate: at least two annotated pedestrians and the smallest median normalized box area available in the segment.",
+    "file": "visuals/frame_001331_small_or_distant.jpg",
+    "source_videos": {
+      "threshold_009116": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_009116\\annotated_video.mp4",
+      "threshold_012545": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\annotated_video.mp4"
+    }
+  },
+  {
+    "frame_index": 1406,
+    "ground_truth_boxes": 4,
+    "median_normalized_box_area": 0.00043293055555555354,
+    "occluded_boxes": 2,
+    "category": "occluded",
+    "selection_reason": "Annotated partial/full occlusion; selected frame has the greatest occluded-box count among multi-pedestrian frames.",
+    "file": "visuals/frame_001406_occluded.jpg",
+    "source_videos": {
+      "threshold_009116": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_009116\\annotated_video.mp4",
+      "threshold_012545": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\annotated_video.mp4"
+    }
+  },
+  {
+    "frame_index": 1408,
+    "ground_truth_boxes": 4,
+    "median_normalized_box_area": 0.0004458290653935189,
+    "occluded_boxes": 2,
+    "category": "densest_available",
+    "selection_reason": "Densest available annotated scene in this segment; the included labels contain at most four pedestrians per frame, so no highly crowded frame is available.",
+    "file": "visuals/frame_001408_densest_available.jpg",
+    "source_videos": {
+      "threshold_009116": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_009116\\annotated_video.mp4",
+      "threshold_012545": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\annotated_video.mp4"
+    }
+  }
+]

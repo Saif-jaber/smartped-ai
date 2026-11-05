@@ -1,0 +1,393 @@
+{
+  "grouping_unit": "recording_set",
+  "assignments": {
+    "train": [
+      "set01",
+      "set02",
+      "set03",
+      "set05"
+    ],
+    "validation": [
+      "set06"
+    ],
+    "test": [
+      "set04"
+    ]
+  },
+  "counts": {
+    "train": {
+      "sample_count": 492,
+      "class_distribution": {
+        "negative": 328,
+        "positive": 164
+      },
+      "unique_tracks": 492,
+      "recording_sets": [
+        "set01",
+        "set02",
+        "set03",
+        "set05"
+      ],
+      "assigned_recording_sets": [
+        "set01",
+        "set02",
+        "set03",
+        "set05"
+      ]
+    },
+    "validation": {
+      "sample_count": 103,
+      "class_distribution": {
+        "negative": 74,
+        "positive": 29
+      },
+      "unique_tracks": 103,
+      "recording_sets": [
+        "set06"
+      ],
+      "assigned_recording_sets": [
+        "set06"
+      ]
+    },
+    "test": {
+      "sample_count": 328,
+      "class_distribution": {
+        "negative": 238,
+        "positive": 90
+      },
+      "unique_tracks": 328,
+      "recording_sets": [
+        "set04"
+      ],
+      "assigned_recording_sets": [
+        "set04"
+      ]
+    }
+  },
+  "exclusions": {
+    "already_crossing_by_cutoff": 49,
+    "crossing_irrelevant": 468,
+    "incomplete_or_ambiguous_horizon": 402
+  },
+  "videos": [
+    {
+      "set_id": "set01",
+      "video_id": "video_0001",
+      "split": "train",
+      "sample_count": 6
+    },
+    {
+      "set_id": "set01",
+      "video_id": "video_0002",
+      "split": "train",
+      "sample_count": 22
+    },
+    {
+      "set_id": "set01",
+      "video_id": "video_0003",
+      "split": "train",
+      "sample_count": 19
+    },
+    {
+      "set_id": "set01",
+      "video_id": "video_0004",
+      "split": "train",
+      "sample_count": 6
+    },
+    {
+      "set_id": "set02",
+      "video_id": "video_0001",
+      "split": "train",
+      "sample_count": 18
+    },
+    {
+      "set_id": "set02",
+      "video_id": "video_0002",
+      "split": "train",
+      "sample_count": 30
+    },
+    {
+      "set_id": "set02",
+      "video_id": "video_0003",
+      "split": "train",
+      "sample_count": 13
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0001",
+      "split": "train",
+      "sample_count": 17
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0002",
+      "split": "train",
+      "sample_count": 13
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0003",
+      "split": "train",
+      "sample_count": 23
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0004",
+      "split": "train",
+      "sample_count": 20
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0005",
+      "split": "train",
+      "sample_count": 21
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0006",
+      "split": "train",
+      "sample_count": 16
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0007",
+      "split": "train",
+      "sample_count": 11
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0008",
+      "split": "train",
+      "sample_count": 18
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0009",
+      "split": "train",
+      "sample_count": 34
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0010",
+      "split": "train",
+      "sample_count": 37
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0011",
+      "split": "train",
+      "sample_count": 16
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0012",
+      "split": "train",
+      "sample_count": 35
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0013",
+      "split": "train",
+      "sample_count": 5
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0014",
+      "split": "train",
+      "sample_count": 5
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0015",
+      "split": "train",
+      "sample_count": 39
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0016",
+      "split": "train",
+      "sample_count": 42
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0017",
+      "split": "train",
+      "sample_count": 7
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0018",
+      "split": "train",
+      "sample_count": 6
+    },
+    {
+      "set_id": "set03",
+      "video_id": "video_0019",
+      "split": "train",
+      "sample_count": 4
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0001",
+      "split": "test",
+      "sample_count": 21
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0002",
+      "split": "test",
+      "sample_count": 19
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0003",
+      "split": "test",
+      "sample_count": 10
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0004",
+      "split": "test",
+      "sample_count": 14
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0005",
+      "split": "test",
+      "sample_count": 17
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0006",
+      "split": "test",
+      "sample_count": 36
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0007",
+      "split": "test",
+      "sample_count": 53
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0008",
+      "split": "test",
+      "sample_count": 26
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0009",
+      "split": "test",
+      "sample_count": 28
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0010",
+      "split": "test",
+      "sample_count": 30
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0011",
+      "split": "test",
+      "sample_count": 10
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0012",
+      "split": "test",
+      "sample_count": 26
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0013",
+      "split": "test",
+      "sample_count": 6
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0014",
+      "split": "test",
+      "sample_count": 2
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0015",
+      "split": "test",
+      "sample_count": 22
+    },
+    {
+      "set_id": "set04",
+      "video_id": "video_0016",
+      "split": "test",
+      "sample_count": 8
+    },
+    {
+      "set_id": "set05",
+      "video_id": "video_0001",
+      "split": "train",
+      "sample_count": 8
+    },
+    {
+      "set_id": "set05",
+      "video_id": "video_0002",
+      "split": "train",
+      "sample_count": 1
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0001",
+      "split": "validation",
+      "sample_count": 3
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0002",
+      "split": "validation",
+      "sample_count": 27
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0003",
+      "split": "validation",
+      "sample_count": 8
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0004",
+      "split": "validation",
+      "sample_count": 16
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0005",
+      "split": "validation",
+      "sample_count": 9
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0006",
+      "split": "validation",
+      "sample_count": 8
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0007",
+      "split": "validation",
+      "sample_count": 8
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0008",
+      "split": "validation",
+      "sample_count": 7
+    },
+    {
+      "set_id": "set06",
+      "video_id": "video_0009",
+      "split": "validation",
+      "sample_count": 17
+    }
+  ],
+  "test_evaluation": "not performed"
+}

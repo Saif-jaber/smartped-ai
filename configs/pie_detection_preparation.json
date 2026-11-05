@@ -1,0 +1,8 @@
+{
+  "dataset_config": "pie_dataset.json",
+  "output_dir": "../artifacts/pie_detection_yolo",
+  "frame_stride": 30,
+  "preserve_keyframes": false,
+  "visual_sample_count": 24,
+  "jpeg_quality": 92
+}

@@ -1,0 +1,163 @@
+{
+  "model_key": "finetuned_train5_best",
+  "model_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\runs\\detect\\train-5\\weights\\best.pt",
+  "started_utc": "2026-11-05T13:06:14.988251+00:00",
+  "status": "success",
+  "standard_metrics": {
+    "results_dict": {
+      "metrics/precision(B)": 0.3599021251424365,
+      "metrics/recall(B)": 0.32517857142857143,
+      "metrics/mAP50(B)": 0.2595017606939651,
+      "metrics/mAP50-95(B)": 0.13816423078250548,
+      "fitness": 0.13816423078250548
+    },
+    "ap50": 0.2595017606939651,
+    "ap50_95": 0.13816423078250548,
+    "speed_ms_per_image": {
+      "preprocess": 1.1333804142175712,
+      "inference": 114.16691339810718,
+      "loss": 0.000651879316842723,
+      "postprocess": 7.717741933008491
+    },
+    "images_evaluated": 3911,
+    "ground_truth_boxes": 11200,
+    "gt_boxes_per_class": [
+      11200
+    ],
+    "names": {
+      "0": "pedestrian"
+    }
+  },
+  "standard_metrics_error": null,
+  "threshold_sweep": [
+    {
+      "threshold": 0.05,
+      "tp": 5564,
+      "fp": 22738,
+      "fn": 5636,
+      "precision": 0.1965938802911455,
+      "recall": 0.4967857142857143,
+      "f1": 0.2817072553288441,
+      "predicted_boxes": 28302,
+      "images_with_predictions": 3818
+    },
+    {
+      "threshold": 0.1,
+      "tp": 4264,
+      "fp": 10198,
+      "fn": 6936,
+      "precision": 0.2948416539897663,
+      "recall": 0.3807142857142857,
+      "f1": 0.3323201621073962,
+      "predicted_boxes": 14462,
+      "images_with_predictions": 3513
+    },
+    {
+      "threshold": 0.15,
+      "tp": 3465,
+      "fp": 5764,
+      "fn": 7735,
+      "precision": 0.37544696066746125,
+      "recall": 0.309375,
+      "f1": 0.3392236526506437,
+      "predicted_boxes": 9229,
+      "images_with_predictions": 3120
+    },
+    {
+      "threshold": 0.2,
+      "tp": 2897,
+      "fp": 3760,
+      "fn": 8303,
+      "precision": 0.4351810124680787,
+      "recall": 0.2586607142857143,
+      "f1": 0.3244665957327659,
+      "predicted_boxes": 6657,
+      "images_with_predictions": 2729
+    },
+    {
+      "threshold": 0.25,
+      "tp": 2456,
+      "fp": 2602,
+      "fn": 8744,
+      "precision": 0.48556741795175956,
+      "recall": 0.21928571428571428,
+      "f1": 0.30212818304834543,
+      "predicted_boxes": 5058,
+      "images_with_predictions": 2342
+    },
+    {
+      "threshold": 0.3,
+      "tp": 2122,
+      "fp": 1926,
+      "fn": 9078,
+      "precision": 0.5242094861660079,
+      "recall": 0.18946428571428572,
+      "f1": 0.27833158447009443,
+      "predicted_boxes": 4048,
+      "images_with_predictions": 2028
+    },
+    {
+      "threshold": 0.35,
+      "tp": 1858,
+      "fp": 1451,
+      "fn": 9342,
+      "precision": 0.5614989422786341,
+      "recall": 0.16589285714285715,
+      "f1": 0.2561168929629885,
+      "predicted_boxes": 3309,
+      "images_with_predictions": 1708
+    },
+    {
+      "threshold": 0.4,
+      "tp": 1656,
+      "fp": 1163,
+      "fn": 9544,
+      "precision": 0.5874423554451933,
+      "recall": 0.14785714285714285,
+      "f1": 0.2362508024823454,
+      "predicted_boxes": 2819,
+      "images_with_predictions": 1513
+    },
+    {
+      "threshold": 0.45,
+      "tp": 1454,
+      "fp": 926,
+      "fn": 9746,
+      "precision": 0.6109243697478992,
+      "recall": 0.12982142857142856,
+      "f1": 0.2141384388807069,
+      "predicted_boxes": 2380,
+      "images_with_predictions": 1329
+    },
+    {
+      "threshold": 0.5,
+      "tp": 1270,
+      "fp": 742,
+      "fn": 9930,
+      "precision": 0.6312127236580517,
+      "recall": 0.11339285714285714,
+      "f1": 0.1922494701786255,
+      "predicted_boxes": 2012,
+      "images_with_predictions": 1164
+    }
+  ],
+  "baseline_conf_0.25": {
+    "threshold": 0.25,
+    "tp": 2456,
+    "fp": 2602,
+    "fn": 8744,
+    "precision": 0.48556741795175956,
+    "recall": 0.21928571428571428,
+    "f1": 0.30212818304834543,
+    "predicted_boxes": 5058,
+    "images_with_predictions": 2342
+  },
+  "images_captured": 3911,
+  "ground_truth_boxes_captured": 11200,
+  "image_order_sha256": "7421d406f800f2003c9c6a7313dd0418ce7290036730c78570439fea7ffffc95",
+  "gt_sanity_checked_images": 5,
+  "gt_sanity_max_abs_diff_px": 0.0001045804687009877,
+  "per_image_predictions_file": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_calibration\\metrics\\per_image_predictions_finetuned_train5_best.jsonl.gz",
+  "validator_save_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_calibration\\runs\\calibration_finetuned_train5_best_set06",
+  "wall_clock_seconds": 521.713
+}

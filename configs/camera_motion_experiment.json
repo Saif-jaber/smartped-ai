@@ -1,0 +1,47 @@
+{
+  "fps": 30.0,
+  "max_gap_frames": 15,
+  "original_standing_speed_threshold_px_s": 10.0,
+  "smoothing_window_observations": 9,
+  "smoothing_min_observations": 3,
+  "calibration_max_seconds": 60.0,
+  "evaluation_max_seconds": 60.0,
+  "local_radius_candidates_px": [80.0, 120.0, 160.0, 220.0, 300.0],
+  "iou_threshold": 0.5,
+  "evaluation_features_csv": "artifacts/trajectory_extraction/yolo_botsort_set01_video_0001_60s/trajectory_features.csv",
+  "output_dir": "artifacts/trajectory_extraction/camera_motion_calibrated_set01_video_0001_60s",
+  "write_raw_features": true,
+  "calibration": [
+    {
+      "set_id": "set03",
+      "video_id": "video_0001"
+    },
+    {
+      "set_id": "set05",
+      "video_id": "video_0001"
+    },
+    {
+      "set_id": "set05",
+      "video_id": "video_0002"
+    }
+  ],
+  "evaluation": {
+    "set_id": "set01",
+    "video_id": "video_0001"
+  },
+  "camera_motion": {
+    "max_width_px": 960,
+    "feature_max_corners": 2500,
+    "feature_quality_level": 0.01,
+    "feature_min_distance_px": 10.0,
+    "feature_block_size_px": 7,
+    "lk_window_size_px": 21,
+    "lk_max_level": 3,
+    "lk_backward_error_px": 1.0,
+    "local_radius_px": 160.0,
+    "min_local_flow_samples": 8,
+    "mask_padding_px": 6.0,
+    "ransac_reprojection_threshold_px": 3.0,
+    "min_global_inliers": 20
+  }
+}

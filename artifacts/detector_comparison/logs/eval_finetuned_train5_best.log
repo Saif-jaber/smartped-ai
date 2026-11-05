@@ -1,0 +1,8 @@
+Evaluating finetuned_train5_best: C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\runs\detect\train-5\weights\best.pt
+status=success images=10593
+results_dict={'metrics/precision(B)': 0.3861309476961059, 'metrics/recall(B)': 0.36902186617131644, 'metrics/mAP50(B)': 0.2884279002249578, 'metrics/mAP50-95(B)': 0.16294831890526534, 'fitness': 0.16294831890526534}
+speed_ms_per_image={'preprocess': 1.1984573491897357, 'inference': 114.00854628528418, 'loss': 0.0006752666846331425, 'postprocess': 8.036140753324965}
+fps={'inference_only': 8.771272264955424, 'preprocess_plus_inference_plus_postprocess': 8.114041596126302}
+predicted_boxes={'conf_0.001': 966295, 'conf_0.250': 22434, 'conf_0.500': 9243}
+fixed_conf_0.25={'tp': 10567, 'fp': 11867, 'fn': 27480, 'precision': 0.47102612106623876, 'recall': 0.2777354324913922, 'f1': 0.34943205304145103, 'annotated_pedestrians_detected': 10567}
+save_dir=C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\artifacts\detector_comparison\runs\finetuned_train5_best_test_set04

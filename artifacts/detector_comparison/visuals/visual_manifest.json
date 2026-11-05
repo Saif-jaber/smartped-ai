@@ -1,0 +1,2569 @@
+{
+  "generated_by": "render_visual_comparison.py",
+  "display_settings": {
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou": 0.7,
+    "max_det": 300,
+    "classes": [
+      0
+    ],
+    "verbose": false,
+    "device": "0",
+    "note": "Display threshold conf=0.25; AP evaluation uses conf=0.001."
+  },
+  "checkpoints": {
+    "pretrained_yolo11s": {
+      "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\yolo11s.pt",
+      "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+    },
+    "finetuned_train5_best": {
+      "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\runs\\detect\\train-5\\weights\\best.pt",
+      "sha256": "9e1d876ff9ccc49d03f43da9dbe5bb4df71c2a7514dbaad24585e4a1f855ecfb"
+    }
+  },
+  "frames": [
+    {
+      "category": "small_or_distant",
+      "selection_reason": "median GT box area in the smallest quartile; >=2 GT boxes",
+      "video_id": "video_0009",
+      "frame_index": 8862,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0009\\frame_008862.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0009\\frame_008862.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            1016.2500095999999,
+            735.4300014,
+            1022.4700032,
+            755.3000033999999
+          ],
+          "cls": 0,
+          "area": 5.9602278776999996e-05
+        },
+        {
+          "xyxy": [
+            1435.2099936,
+            713.259999,
+            1485.2399904,
+            830.2999986
+          ],
+          "cls": 0,
+          "area": 0.0028238381584973
+        },
+        {
+          "xyxy": [
+            1019.9800032,
+            733.4899974000001,
+            1025.5800096000003,
+            754.6399938
+          ],
+          "cls": 0,
+          "area": 5.71181111111e-05
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            1430.905517578125,
+            716.8282470703125,
+            1480.559326171875,
+            829.053955078125
+          ],
+          "conf": 0.303830623626709,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [],
+      "counts": {
+        "gt": 3,
+        "pretrained": 1,
+        "finetuned": 0
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0009_frame_008862_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0009_frame_008862_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0009_frame_008862_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0009_frame_008862_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0009_frame_008862_overlay.png"
+      }
+    },
+    {
+      "category": "small_or_distant",
+      "selection_reason": "median GT box area in the smallest quartile; >=2 GT boxes",
+      "video_id": "video_0004",
+      "frame_index": 12882,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0004\\frame_012882.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0004\\frame_012882.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            1052.9499936,
+            735.7200029999999,
+            1060.3799904,
+            757.2000042
+          ],
+          "cls": 0,
+          "area": 7.69658276331e-05
+        },
+        {
+          "xyxy": [
+            1057.8399936,
+            737.0100035999999,
+            1064.3199935999999,
+            756.4500036
+          ],
+          "cls": 0,
+          "area": 6.074999999999999e-05
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            1825.12939453125,
+            627.0811767578125,
+            1857.10693359375,
+            744.9241943359375
+          ],
+          "conf": 0.6767846345901489,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [],
+      "counts": {
+        "gt": 2,
+        "pretrained": 1,
+        "finetuned": 0
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0004_frame_012882_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0004_frame_012882_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0004_frame_012882_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0004_frame_012882_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\small_or_distant\\video_0004_frame_012882_overlay.png"
+      }
+    },
+    {
+      "category": "partially_occluded",
+      "selection_reason": "contains >=1 PIE 'part' occlusion box and >=2 GT boxes",
+      "video_id": "video_0012",
+      "frame_index": 12592,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0012\\frame_012592.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0012\\frame_012592.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            591.5199936,
+            697.2599934000001,
+            628.5000000000001,
+            831.0999978
+          ],
+          "cls": 0,
+          "area": 0.0023868654606906
+        },
+        {
+          "xyxy": [
+            537.5100096,
+            698.6099988,
+            587.4100031999999,
+            828.4299948
+          ],
+          "cls": 0,
+          "area": 0.0031240436774460003
+        },
+        {
+          "xyxy": [
+            580.2700032,
+            705.539997,
+            615.84,
+            824.4599958
+          ],
+          "cls": 0,
+          "area": 0.0020399228283044
+        },
+        {
+          "xyxy": [
+            1055.0500032,
+            763.6099986,
+            1095.7099967999998,
+            815.8800006
+          ],
+          "cls": 0,
+          "area": 0.001024931494402
+        },
+        {
+          "xyxy": [
+            1600.7799936000001,
+            706.9899996,
+            1625.9500032,
+            796.8899988
+          ],
+          "cls": 0,
+          "area": 0.0010912344921412
+        },
+        {
+          "xyxy": [
+            1654.6399872,
+            677.9399976,
+            1688.7399936000002,
+            795.15
+          ],
+          "cls": 0,
+          "area": 0.0019274989544676
+        },
+        {
+          "xyxy": [
+            1217.1399936,
+            715.3599942000001,
+            1252.7299968,
+            826.5299994
+          ],
+          "cls": 0,
+          "area": 0.0019080540320274
+        },
+        {
+          "xyxy": [
+            1238.31,
+            706.6200023999999,
+            1281.7399968,
+            826.9999992
+          ],
+          "cls": 0,
+          "area": 0.0025212687479784003
+        },
+        {
+          "xyxy": [
+            -9.599999998277653e-06,
+            593.5699926,
+            33.8999904,
+            939.0999978
+          ],
+          "cls": 0,
+          "area": 0.005648855698437499
+        },
+        {
+          "xyxy": [
+            550.1400096,
+            691.1900046,
+            610.6600032000001,
+            849.770001
+          ],
+          "cls": 0,
+          "area": 0.004628308433263901
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            547.32763671875,
+            699.487060546875,
+            599.311767578125,
+            848.9646606445312
+          ],
+          "conf": 0.6321440935134888,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            185.29580688476562,
+            696.1278076171875,
+            224.77638244628906,
+            809.5094604492188
+          ],
+          "conf": 0.6161874532699585,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            0.0405120849609375,
+            608.037109375,
+            67.27202606201172,
+            931.466064453125
+          ],
+          "conf": 0.5923847556114197,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            587.4166259765625,
+            699.7049560546875,
+            629.1685180664062,
+            836.1223754882812
+          ],
+          "conf": 0.5000226497650146,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1130.56689453125,
+            694.4200439453125,
+            1167.593505859375,
+            832.474853515625
+          ],
+          "conf": 0.4839189946651459,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            221.92318725585938,
+            689.0827026367188,
+            260.50286865234375,
+            805.0166015625
+          ],
+          "conf": 0.4341066777706146,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1641.380859375,
+            685.0119018554688,
+            1684.1455078125,
+            796.1517333984375
+          ],
+          "conf": 0.4020688235759735,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1197.3961181640625,
+            716.7261962890625,
+            1229.698486328125,
+            789.7332763671875
+          ],
+          "conf": 0.3743341267108917,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1232.72021484375,
+            710.86474609375,
+            1279.6669921875,
+            772.4993896484375
+          ],
+          "conf": 0.27958792448043823,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1602.2578125,
+            712.8982543945312,
+            1631.9139404296875,
+            795.47314453125
+          ],
+          "conf": 0.2504415810108185,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            0.0,
+            601.1029052734375,
+            42.62696075439453,
+            938.601318359375
+          ],
+          "conf": 0.4176660180091858,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 10,
+        "pretrained": 10,
+        "finetuned": 1
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0012_frame_012592_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0012_frame_012592_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0012_frame_012592_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0012_frame_012592_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0012_frame_012592_overlay.png"
+      }
+    },
+    {
+      "category": "partially_occluded",
+      "selection_reason": "contains >=1 PIE 'part' occlusion box and >=2 GT boxes",
+      "video_id": "video_0007",
+      "frame_index": 6021,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0007\\frame_006021.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0007\\frame_006021.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            362.4699936,
+            604.4000058,
+            463.44999359999997,
+            969.2900046000001
+          ],
+          "cls": 0,
+          "area": 0.0177693827540625
+        },
+        {
+          "xyxy": [
+            331.8199872,
+            539.940006,
+            445.4299968,
+            992.6900028000001
+          ],
+          "cls": 0,
+          "area": 0.024805618963564802
+        },
+        {
+          "xyxy": [
+            496.65,
+            615.5200044,
+            628.3000032000001,
+            949.800006
+          ],
+          "cls": 0,
+          "area": 0.0212229761189892
+        },
+        {
+          "xyxy": [
+            419.0699904,
+            597.4500006000001,
+            512.3299968,
+            963.2000034
+          ],
+          "cls": 0,
+          "area": 0.0164495792833372
+        },
+        {
+          "xyxy": [
+            1822.8500064,
+            677.9100006000001,
+            1871.2000032,
+            853.2599994
+          ],
+          "cls": 0,
+          "area": 0.0040886245567419
+        },
+        {
+          "xyxy": [
+            1862.2899936000001,
+            635.0699970000001,
+            1919.9999904000001,
+            988.1099982000001
+          ],
+          "cls": 0,
+          "area": 0.0098253941645081
+        },
+        {
+          "xyxy": [
+            1836.5700096000003,
+            667.8299987999999,
+            1888.7000064,
+            875.1999996
+          ],
+          "cls": 0,
+          "area": 0.0052132510986304
+        },
+        {
+          "xyxy": [
+            1862.7699936000001,
+            649.3600008000001,
+            1916.8999968,
+            882.9
+          ],
+          "cls": 0,
+          "area": 0.0060964124730053994
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            337.0637512207031,
+            544.0123291015625,
+            434.45416259765625,
+            962.3538208007812
+          ],
+          "conf": 0.7936829924583435,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1325.444580078125,
+            730.9111328125,
+            1349.54248046875,
+            795.8590087890625
+          ],
+          "conf": 0.7230629920959473,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            495.34271240234375,
+            630.5828857421875,
+            629.4132080078125,
+            936.7033081054688
+          ],
+          "conf": 0.7104048728942871,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            421.02191162109375,
+            604.05859375,
+            515.7269897460938,
+            955.0570678710938
+          ],
+          "conf": 0.6983098983764648,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1865.7216796875,
+            675.75927734375,
+            1919.4715576171875,
+            973.237548828125
+          ],
+          "conf": 0.6744168996810913,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1290.3603515625,
+            727.315673828125,
+            1312.22705078125,
+            794.3570556640625
+          ],
+          "conf": 0.5311869382858276,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            695.9020385742188,
+            711.866455078125,
+            718.083740234375,
+            768.3942260742188
+          ],
+          "conf": 0.486100435256958,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1603.8592529296875,
+            726.9249267578125,
+            1623.6031494140625,
+            778.3900146484375
+          ],
+          "conf": 0.42909201979637146,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            496.8190612792969,
+            619.8422241210938,
+            580.912841796875,
+            947.593505859375
+          ],
+          "conf": 0.41839611530303955,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1248.8560791015625,
+            727.7440185546875,
+            1273.6676025390625,
+            793.8597412109375
+          ],
+          "conf": 0.39842790365219116,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1277.413330078125,
+            728.076904296875,
+            1307.2210693359375,
+            795.0361328125
+          ],
+          "conf": 0.39262229204177856,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1212.11865234375,
+            732.74853515625,
+            1229.5609130859375,
+            787.85302734375
+          ],
+          "conf": 0.3544042408466339,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1464.463623046875,
+            734.5936889648438,
+            1488.9407958984375,
+            788.6270141601562
+          ],
+          "conf": 0.3190777599811554,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1350.1251220703125,
+            734.84033203125,
+            1369.205078125,
+            791.2489013671875
+          ],
+          "conf": 0.3133562505245209,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            495.2928771972656,
+            643.89013671875,
+            631.1676025390625,
+            933.9559326171875
+          ],
+          "conf": 0.5510907173156738,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            421.57891845703125,
+            606.841552734375,
+            565.3408203125,
+            948.3945922851562
+          ],
+          "conf": 0.5035430788993835,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1861.98486328125,
+            645.7636108398438,
+            1920.0,
+            982.0169677734375
+          ],
+          "conf": 0.37377244234085083,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            479.97198486328125,
+            642.395751953125,
+            559.671630859375,
+            905.1546630859375
+          ],
+          "conf": 0.3506256639957428,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1820.31982421875,
+            677.086181640625,
+            1878.501220703125,
+            860.6307373046875
+          ],
+          "conf": 0.34444838762283325,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            397.85064697265625,
+            618.2275390625,
+            508.849365234375,
+            937.7268676757812
+          ],
+          "conf": 0.30389460921287537,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            397.572509765625,
+            620.8099975585938,
+            483.04046630859375,
+            884.7535400390625
+          ],
+          "conf": 0.27673977613449097,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 8,
+        "pretrained": 14,
+        "finetuned": 7
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0007_frame_006021_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0007_frame_006021_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0007_frame_006021_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0007_frame_006021_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\partially_occluded\\video_0007_frame_006021_overlay.png"
+      }
+    },
+    {
+      "category": "multiple_close",
+      "selection_reason": ">=3 GT boxes; highest pairwise GT box overlap",
+      "video_id": "video_0006",
+      "frame_index": 6365,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0006\\frame_006365.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0006\\frame_006365.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            1445.4700032,
+            658.4100066,
+            1596.48,
+            983.0400030000001
+          ],
+          "cls": 0,
+          "area": 0.0236411915111632
+        },
+        {
+          "xyxy": [
+            914.9500032,
+            587.8800018000001,
+            1083.0999936,
+            1080.0000054
+          ],
+          "cls": 0,
+          "area": 0.0399064303052604
+        },
+        {
+          "xyxy": [
+            1016.4200064,
+            617.0499972,
+            1188.3800064,
+            1077.6399947999998
+          ],
+          "cls": 0,
+          "area": 0.038195918203750005
+        },
+        {
+          "xyxy": [
+            1396.9900032,
+            694.0299995999999,
+            1502.2599936000001,
+            905.9599979999999
+          ],
+          "cls": 0,
+          "area": 0.010759003133217602
+        },
+        {
+          "xyxy": [
+            1432.0699968,
+            676.3600008,
+            1531.5,
+            918.5800032
+          ],
+          "cls": 0,
+          "area": 0.0116145522828588
+        },
+        {
+          "xyxy": [
+            845.22,
+            675.999999,
+            940.2399936,
+            932.6600010000001
+          ],
+          "cls": 0,
+          "area": 0.011761107131277
+        },
+        {
+          "xyxy": [
+            142.6299936,
+            546.1799976,
+            295.8599904,
+            995.1999983999999
+          ],
+          "cls": 0,
+          "area": 0.0331806198330054
+        },
+        {
+          "xyxy": [
+            140.39999999999998,
+            607.6500066,
+            248.3799936,
+            950.100003
+          ],
+          "cls": 0,
+          "area": 0.0178326333042014
+        },
+        {
+          "xyxy": [
+            139.84999679999999,
+            603.8800074,
+            251.39999999999998,
+            942.000003
+          ],
+          "cls": 0,
+          "area": 0.0181892778699672
+        },
+        {
+          "xyxy": [
+            940.3300031999999,
+            626.0299974,
+            1128.8999999999999,
+            1004.5000026
+          ],
+          "cls": 0,
+          "area": 0.0344174805504726
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            922.3734741210938,
+            594.1796264648438,
+            1094.963134765625,
+            1015.2804565429688
+          ],
+          "conf": 0.8340498208999634,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1442.1068115234375,
+            660.3790283203125,
+            1584.041015625,
+            975.0465087890625
+          ],
+          "conf": 0.808405876159668,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1043.58447265625,
+            626.9912109375,
+            1181.419677734375,
+            1023.0675659179688
+          ],
+          "conf": 0.8071038722991943,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            858.5875854492188,
+            673.1112060546875,
+            937.85595703125,
+            936.9068603515625
+          ],
+          "conf": 0.7549023032188416,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            153.27383422851562,
+            547.5499267578125,
+            282.3815002441406,
+            966.1236572265625
+          ],
+          "conf": 0.7103626132011414,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1395.462158203125,
+            699.64697265625,
+            1467.7027587890625,
+            900.5894775390625
+          ],
+          "conf": 0.37624290585517883,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            1444.78564453125,
+            661.1035766601562,
+            1589.3917236328125,
+            968.5543212890625
+          ],
+          "conf": 0.6685411930084229,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1018.0636596679688,
+            621.3800659179688,
+            1193.37353515625,
+            1042.6124267578125
+          ],
+          "conf": 0.6613603830337524,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            147.25094604492188,
+            556.0277709960938,
+            290.6444091796875,
+            993.4231567382812
+          ],
+          "conf": 0.5258412957191467,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            904.9733276367188,
+            590.2581787109375,
+            1105.291259765625,
+            991.163330078125
+          ],
+          "conf": 0.45561298727989197,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            135.265380859375,
+            607.7227783203125,
+            248.79531860351562,
+            959.7002563476562
+          ],
+          "conf": 0.38104015588760376,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1463.676513671875,
+            673.7732543945312,
+            1574.225830078125,
+            928.9266357421875
+          ],
+          "conf": 0.3444088101387024,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1407.1064453125,
+            690.5813598632812,
+            1522.19482421875,
+            911.7579345703125
+          ],
+          "conf": 0.3017422556877136,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 10,
+        "pretrained": 6,
+        "finetuned": 7
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0006_frame_006365_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0006_frame_006365_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0006_frame_006365_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0006_frame_006365_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0006_frame_006365_overlay.png"
+      }
+    },
+    {
+      "category": "multiple_close",
+      "selection_reason": ">=3 GT boxes; highest pairwise GT box overlap",
+      "video_id": "video_0008",
+      "frame_index": 15531,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0008\\frame_015531.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0008\\frame_015531.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            679.0100064,
+            692.5000014,
+            706.2400032,
+            775.5800058000001
+          ],
+          "cls": 0,
+          "area": 0.0010909858477797
+        },
+        {
+          "xyxy": [
+            1355.0799935999999,
+            733.020003,
+            1379.2499904000001,
+            798.2400042
+          ],
+          "cls": 0,
+          "area": 0.0007602079573206
+        },
+        {
+          "xyxy": [
+            1379.7700128000001,
+            734.4800009999999,
+            1401.1700064000001,
+            797.1899958
+          ],
+          "cls": 0,
+          "area": 0.0006471805012423001
+        },
+        {
+          "xyxy": [
+            1677.4899936000002,
+            734.8199957999999,
+            1697.85,
+            794.690001
+          ],
+          "cls": 0,
+          "area": 0.0005878441787423
+        },
+        {
+          "xyxy": [
+            1801.1200032000002,
+            720.3600054,
+            1821.39,
+            783.3700026000001
+          ],
+          "cls": 0,
+          "area": 0.0006159396419811
+        },
+        {
+          "xyxy": [
+            679.0400064,
+            695.7300006,
+            705.2200128,
+            776.3400017999999
+          ],
+          "cls": 0,
+          "area": 0.0010177326134838
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            1224.8221435546875,
+            736.6966552734375,
+            1244.826416015625,
+            778.7347412109375
+          ],
+          "conf": 0.4311858117580414,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [],
+      "counts": {
+        "gt": 6,
+        "pretrained": 1,
+        "finetuned": 0
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0008_frame_015531_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0008_frame_015531_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0008_frame_015531_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0008_frame_015531_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\multiple_close\\video_0008_frame_015531_overlay.png"
+      }
+    },
+    {
+      "category": "crowded",
+      "selection_reason": "high GT box count (>=9 pedestrians)",
+      "video_id": "video_0010",
+      "frame_index": 5645,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0010\\frame_005645.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0010\\frame_005645.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            1585.5,
+            678.4999938000001,
+            1603.4000064000002,
+            754.299999
+          ],
+          "cls": 0,
+          "area": 0.0006543309115547999
+        },
+        {
+          "xyxy": [
+            489.3199872,
+            655.5100014,
+            616.1299968000001,
+            927.4999986000001
+          ],
+          "cls": 0,
+          "area": 0.0166334173206192
+        },
+        {
+          "xyxy": [
+            440.6199936,
+            644.949999,
+            607.2999936,
+            951.3000018
+          ],
+          "cls": 0,
+          "area": 0.024625008905625
+        },
+        {
+          "xyxy": [
+            271.1799936,
+            646.8700067999999,
+            345.45999359999996,
+            896.560002
+          ],
+          "cls": 0,
+          "area": 0.0089443348975
+        },
+        {
+          "xyxy": [
+            421.3099968,
+            579.15,
+            621.3000000000001,
+            1051.700004
+          ],
+          "cls": 0,
+          "area": 0.045575461425598
+        },
+        {
+          "xyxy": [
+            512.1899903999999,
+            645.2700030000001,
+            689.2099968,
+            1005.5199978
+          ],
+          "cls": 0,
+          "area": 0.0307539816671952
+        },
+        {
+          "xyxy": [
+            515.8099967999999,
+            643.249998,
+            641.8099968,
+            905.0999939999999
+          ],
+          "cls": 0,
+          "area": 0.0159110240625
+        },
+        {
+          "xyxy": [
+            555.5500032,
+            634.8400002,
+            662.9299968,
+            909.600003
+          ],
+          "cls": 0,
+          "area": 0.0142282635716628
+        },
+        {
+          "xyxy": [
+            1069.7300064,
+            704.999997,
+            1097.2000032,
+            779.3999982
+          ],
+          "cls": 0,
+          "area": 0.0009856133270080998
+        },
+        {
+          "xyxy": [
+            1103.22,
+            700.2299934,
+            1139.6000064,
+            774.3999977999999
+          ],
+          "cls": 0,
+          "area": 0.0013012660275656
+        },
+        {
+          "xyxy": [
+            1059.3600096,
+            707.7799980000001,
+            1083.4000032,
+            782.3199996000001
+          ],
+          "cls": 0,
+          "area": 0.0008641691557716
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            535.2774658203125,
+            651.3946533203125,
+            691.38525390625,
+            1000.4785766601562
+          ],
+          "conf": 0.8802996873855591,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            437.79473876953125,
+            582.879150390625,
+            622.8832397460938,
+            1011.8446655273438
+          ],
+          "conf": 0.8384964466094971,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            255.83065795898438,
+            629.69970703125,
+            343.09014892578125,
+            907.4620971679688
+          ],
+          "conf": 0.8243328928947449,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            728.155517578125,
+            692.2545776367188,
+            822.1552734375,
+            843.5458374023438
+          ],
+          "conf": 0.6906147003173828,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            904.0819091796875,
+            714.0811767578125,
+            933.8751220703125,
+            789.852783203125
+          ],
+          "conf": 0.5802724957466125,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1105.2376708984375,
+            705.5697021484375,
+            1145.640625,
+            784.56201171875
+          ],
+          "conf": 0.5172888040542603,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1062.0811767578125,
+            700.5368041992188,
+            1107.8590087890625,
+            785.3421020507812
+          ],
+          "conf": 0.5080663561820984,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1204.4365234375,
+            706.7276611328125,
+            1244.5565185546875,
+            783.8659057617188
+          ],
+          "conf": 0.41708704829216003,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            846.822021484375,
+            718.0360717773438,
+            871.202880859375,
+            785.7015380859375
+          ],
+          "conf": 0.40699347853660583,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            585.8785400390625,
+            636.664794921875,
+            662.6995239257812,
+            773.6083984375
+          ],
+          "conf": 0.3121621310710907,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            336.1854248046875,
+            699.7381591796875,
+            356.7437744140625,
+            753.7982177734375
+          ],
+          "conf": 0.25833970308303833,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            525.1964111328125,
+            636.1828002929688,
+            689.89404296875,
+            997.8076171875
+          ],
+          "conf": 0.712246835231781,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            253.4263458251953,
+            629.5130615234375,
+            347.4090576171875,
+            908.604736328125
+          ],
+          "conf": 0.695626437664032,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1580.6041259765625,
+            677.7998657226562,
+            1607.5638427734375,
+            754.9285888671875
+          ],
+          "conf": 0.2574964761734009,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 11,
+        "pretrained": 11,
+        "finetuned": 3
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0010_frame_005645_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0010_frame_005645_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0010_frame_005645_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0010_frame_005645_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0010_frame_005645_overlay.png"
+      }
+    },
+    {
+      "category": "crowded",
+      "selection_reason": "high GT box count (>=9 pedestrians)",
+      "video_id": "video_0001",
+      "frame_index": 14857,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0001\\frame_014857.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0001\\frame_014857.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            1483.2399936,
+            696.110004,
+            1578.9999936000002,
+            883.1599992000001
+          ],
+          "cls": 0,
+          "area": 0.008638072695
+        },
+        {
+          "xyxy": [
+            1672.5799872,
+            660.1299984,
+            1765.3599936,
+            872.0599967999999
+          ],
+          "cls": 0,
+          "area": 0.009482478109521601
+        },
+        {
+          "xyxy": [
+            9.600000001608322e-06,
+            625.1099994,
+            21.3500064,
+            773.0000045999999
+          ],
+          "cls": 0,
+          "area": 0.0015226905564101
+        },
+        {
+          "xyxy": [
+            1196.1199872,
+            712.420002,
+            1254.4599936,
+            865.7399988000001
+          ],
+          "cls": 0,
+          "area": 0.0043136041640431996
+        },
+        {
+          "xyxy": [
+            1273.1499936,
+            703.4699988000001,
+            1325.5999967999999,
+            865.6999956000001
+          ],
+          "cls": 0,
+          "area": 0.0041034740795215996
+        },
+        {
+          "xyxy": [
+            1116.4300032,
+            702.5600016,
+            1157.9799936,
+            845.9200008
+          ],
+          "cls": 0,
+          "area": 0.0028725919128587997
+        },
+        {
+          "xyxy": [
+            1367.4700032,
+            696.4200018,
+            1421.1800064,
+            866.9200013999999
+          ],
+          "cls": 0,
+          "area": 0.0044162594155652
+        },
+        {
+          "xyxy": [
+            1322.3200032,
+            701.5599972,
+            1371.7000031999999,
+            849.4999956
+          ],
+          "cls": 0,
+          "area": 0.0035229924387499994
+        },
+        {
+          "xyxy": [
+            1034.7800064,
+            710.9300016,
+            1077.4000128,
+            842.7000024
+          ],
+          "cls": 0,
+          "area": 0.0027083517927391997
+        },
+        {
+          "xyxy": [
+            1164.1300032,
+            743.0500007999999,
+            1210.3599936,
+            865.940004
+          ],
+          "cls": 0,
+          "area": 0.0027397780035648004
+        },
+        {
+          "xyxy": [
+            1427.1300096,
+            693.6099984000001,
+            1466.1800064,
+            865.6400016
+          ],
+          "cls": 0,
+          "area": 0.0032396658345215995
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            1276.322509765625,
+            709.0073852539062,
+            1324.014892578125,
+            865.4970703125
+          ],
+          "conf": 0.653860330581665,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1118.346435546875,
+            707.3236083984375,
+            1159.8084716796875,
+            845.0081176757812
+          ],
+          "conf": 0.6458460092544556,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1328.2093505859375,
+            706.2445068359375,
+            1376.36865234375,
+            856.3001708984375
+          ],
+          "conf": 0.643585205078125,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1371.94287109375,
+            698.5250244140625,
+            1424.09521484375,
+            864.4815673828125
+          ],
+          "conf": 0.6317386627197266,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1505.421630859375,
+            697.9762573242188,
+            1574.7132568359375,
+            865.4930419921875
+          ],
+          "conf": 0.5808793902397156,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1160.291259765625,
+            724.873779296875,
+            1203.361572265625,
+            863.705322265625
+          ],
+          "conf": 0.4827207922935486,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            997.8638305664062,
+            710.573974609375,
+            1037.39306640625,
+            826.8133544921875
+          ],
+          "conf": 0.4817669987678528,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            857.2029418945312,
+            718.3467407226562,
+            891.9904174804688,
+            785.8734741210938
+          ],
+          "conf": 0.43913841247558594,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1702.88720703125,
+            672.4815673828125,
+            1763.456787109375,
+            847.6770629882812
+          ],
+          "conf": 0.42551830410957336,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1426.3839111328125,
+            699.583740234375,
+            1466.4569091796875,
+            857.5643920898438
+          ],
+          "conf": 0.4121344983577728,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1200.4532470703125,
+            712.9949951171875,
+            1250.62158203125,
+            862.2135009765625
+          ],
+          "conf": 0.388749361038208,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            954.7406616210938,
+            717.4610595703125,
+            987.9526977539062,
+            804.967529296875
+          ],
+          "conf": 0.3875972628593445,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            822.851806640625,
+            719.7147216796875,
+            849.7833251953125,
+            804.5864868164062
+          ],
+          "conf": 0.38707178831100464,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1032.01416015625,
+            708.367431640625,
+            1076.2440185546875,
+            840.56298828125
+          ],
+          "conf": 0.3687785863876343,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1468.667236328125,
+            702.8095092773438,
+            1512.76953125,
+            786.8911743164062
+          ],
+          "conf": 0.2675931751728058,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            1689.1219482421875,
+            663.7742919921875,
+            1772.0123291015625,
+            869.4544677734375
+          ],
+          "conf": 0.6859245896339417,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1515.42919921875,
+            698.0546264648438,
+            1584.2750244140625,
+            877.2782592773438
+          ],
+          "conf": 0.5386699438095093,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1113.767333984375,
+            705.1548461914062,
+            1163.556640625,
+            845.95166015625
+          ],
+          "conf": 0.4563075304031372,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1028.7530517578125,
+            708.5693359375,
+            1076.072998046875,
+            842.9390869140625
+          ],
+          "conf": 0.28886109590530396,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 11,
+        "pretrained": 15,
+        "finetuned": 4
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0001_frame_014857_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0001_frame_014857_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0001_frame_014857_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0001_frame_014857_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\crowded\\video_0001_frame_014857_overlay.png"
+      }
+    },
+    {
+      "category": "clear_unobstructed",
+      "selection_reason": "1-3 unoccluded GT boxes with large area and no GT overlap",
+      "video_id": "video_0011",
+      "frame_index": 3540,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0011\\frame_003540.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0011\\frame_003540.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            94.45000319999998,
+            513.3099978,
+            275.21999999999997,
+            1052.9600022
+          ],
+          "cls": 0,
+          "area": 0.047045008472467204
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            92.34821319580078,
+            516.7852783203125,
+            272.9566955566406,
+            973.003173828125
+          ],
+          "conf": 0.898959755897522,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1456.136962890625,
+            701.8419799804688,
+            1486.7607421875,
+            809.9989013671875
+          ],
+          "conf": 0.5536856055259705,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1491.181884765625,
+            700.9149169921875,
+            1522.57275390625,
+            803.3153686523438
+          ],
+          "conf": 0.5248732566833496,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1603.991943359375,
+            696.669921875,
+            1639.826904296875,
+            786.1528930664062
+          ],
+          "conf": 0.4465114176273346,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1533.814453125,
+            696.512939453125,
+            1559.039794921875,
+            793.0512084960938
+          ],
+          "conf": 0.374864786863327,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1644.245361328125,
+            694.8134155273438,
+            1678.5791015625,
+            785.8487548828125
+          ],
+          "conf": 0.3696732223033905,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1384.2982177734375,
+            705.5114135742188,
+            1416.218505859375,
+            801.4764404296875
+          ],
+          "conf": 0.3254724144935608,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1439.4783935546875,
+            701.620361328125,
+            1465.0216064453125,
+            807.095703125
+          ],
+          "conf": 0.30255115032196045,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1410.2174072265625,
+            703.3076171875,
+            1443.830810546875,
+            805.455078125
+          ],
+          "conf": 0.2980838418006897,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1682.2576904296875,
+            679.55029296875,
+            1720.6395263671875,
+            782.5841064453125
+          ],
+          "conf": 0.2895345985889435,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1362.0550537109375,
+            705.7837524414062,
+            1385.259765625,
+            794.6942138671875
+          ],
+          "conf": 0.2773059904575348,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            8.069429397583008,
+            660.4781494140625,
+            34.36577606201172,
+            727.9891357421875
+          ],
+          "conf": 0.2584533393383026,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1718.3221435546875,
+            677.6680908203125,
+            1750.6864013671875,
+            775.3306884765625
+          ],
+          "conf": 0.25460243225097656,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1678.875732421875,
+            683.46142578125,
+            1703.1199951171875,
+            782.10546875
+          ],
+          "conf": 0.25269269943237305,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1414.3516845703125,
+            707.0302734375,
+            1454.983154296875,
+            806.5107421875
+          ],
+          "conf": 0.2511640787124634,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            94.68402862548828,
+            509.6707763671875,
+            266.79443359375,
+            1041.7587890625
+          ],
+          "conf": 0.6212702989578247,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 1,
+        "pretrained": 15,
+        "finetuned": 1
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0011_frame_003540_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0011_frame_003540_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0011_frame_003540_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0011_frame_003540_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0011_frame_003540_overlay.png"
+      }
+    },
+    {
+      "category": "clear_unobstructed",
+      "selection_reason": "1-3 unoccluded GT boxes with large area and no GT overlap",
+      "video_id": "video_0003",
+      "frame_index": 1590,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0003\\frame_001590.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0003\\frame_001590.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            33.75999359999999,
+            551.2499981999999,
+            213.9,
+            1079.9999946
+          ],
+          "cls": 0,
+          "area": 0.0459341376039236
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            33.50104522705078,
+            560.1017456054688,
+            211.88543701171875,
+            969.7884521484375
+          ],
+          "conf": 0.8908361792564392,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1231.120361328125,
+            689.16748046875,
+            1281.483154296875,
+            828.3213500976562
+          ],
+          "conf": 0.8096935153007507,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1698.857666015625,
+            566.0078735351562,
+            1808.8516845703125,
+            694.5101928710938
+          ],
+          "conf": 0.7901033759117126,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1574.48681640625,
+            640.135009765625,
+            1627.488525390625,
+            712.2728881835938
+          ],
+          "conf": 0.5779810547828674,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1872.938232421875,
+            576.33740234375,
+            1919.15771484375,
+            686.647216796875
+          ],
+          "conf": 0.5758082866668701,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1509.8199462890625,
+            652.5389404296875,
+            1566.1116943359375,
+            733.1200561523438
+          ],
+          "conf": 0.5311984419822693,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1128.45947265625,
+            737.6383666992188,
+            1156.8056640625,
+            795.2543334960938
+          ],
+          "conf": 0.44192925095558167,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1313.0224609375,
+            694.1461791992188,
+            1357.42919921875,
+            821.6337890625
+          ],
+          "conf": 0.3699348270893097,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1081.82861328125,
+            709.6087646484375,
+            1106.271484375,
+            774.8593139648438
+          ],
+          "conf": 0.285343736410141,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1079.460693359375,
+            703.935302734375,
+            1112.5277099609375,
+            776.14990234375
+          ],
+          "conf": 0.27954116463661194,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            36.26513671875,
+            554.3096923828125,
+            215.73609924316406,
+            1061.796630859375
+          ],
+          "conf": 0.5431249737739563,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 1,
+        "pretrained": 10,
+        "finetuned": 1
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0003_frame_001590_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0003_frame_001590_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0003_frame_001590_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0003_frame_001590_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\clear_unobstructed\\video_0003_frame_001590_overlay.png"
+      }
+    },
+    {
+      "category": "model_disagreement_supplement",
+      "selection_reason": "Largest absolute difference in detection count at conf 0.25 among a deterministic 20-frame-per-video sample; symmetric criterion, not a quality judgment.",
+      "video_id": "video_0004",
+      "frame_index": 4530,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0004\\frame_004530.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0004\\frame_004530.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            1344.7599936000001,
+            613.7900064,
+            1468.8399936,
+            997.700004
+          ],
+          "cls": 0,
+          "area": 0.022972392217500002
+        },
+        {
+          "xyxy": [
+            1219.5099936000001,
+            702.5599962,
+            1273.2799968,
+            868.7399958
+          ],
+          "cls": 0,
+          "area": 0.0043091720246277
+        },
+        {
+          "xyxy": [
+            1167.9199968000003,
+            693.710001,
+            1236.2399904,
+            867.4800029999999
+          ],
+          "cls": 0,
+          "area": 0.0057252919678395
+        },
+        {
+          "xyxy": [
+            1486.9999967999997,
+            620.139996,
+            1589.3999904,
+            1004.8999968
+          ],
+          "cls": 0,
+          "area": 0.0190004926791358
+        },
+        {
+          "xyxy": [
+            691.3000032,
+            713.5400052,
+            737.1000096,
+            824.200002
+          ],
+          "cls": 0,
+          "area": 0.0024441688665432
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            1352.5360107421875,
+            632.7244262695312,
+            1463.082763671875,
+            989.2305908203125
+          ],
+          "conf": 0.8032442927360535,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            62.00823211669922,
+            626.8929443359375,
+            146.04537963867188,
+            910.2576904296875
+          ],
+          "conf": 0.7917327284812927,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1486.362548828125,
+            625.89013671875,
+            1589.393798828125,
+            984.8392333984375
+          ],
+          "conf": 0.7756782174110413,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1742.0430908203125,
+            602.7770385742188,
+            1828.607666015625,
+            968.9615478515625
+          ],
+          "conf": 0.7544932961463928,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1564.65625,
+            581.9778442382812,
+            1681.2666015625,
+            965.8297119140625
+          ],
+          "conf": 0.7483542561531067,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1167.45947265625,
+            693.4407958984375,
+            1237.360595703125,
+            862.9605712890625
+          ],
+          "conf": 0.7118771076202393,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1223.216552734375,
+            708.6976318359375,
+            1273.50634765625,
+            865.3214721679688
+          ],
+          "conf": 0.6869304180145264,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1664.77294921875,
+            641.8423461914062,
+            1747.4791259765625,
+            1004.6510009765625
+          ],
+          "conf": 0.6659636497497559,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            357.3887023925781,
+            661.9461669921875,
+            421.82135009765625,
+            867.0107421875
+          ],
+          "conf": 0.5763447284698486,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            446.6356201171875,
+            669.79345703125,
+            496.23907470703125,
+            830.2418212890625
+          ],
+          "conf": 0.5076847076416016,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1441.1004638671875,
+            657.544677734375,
+            1507.1092529296875,
+            940.3065185546875
+          ],
+          "conf": 0.49971139430999756,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            630.3143310546875,
+            707.7208251953125,
+            665.1593017578125,
+            814.3218383789062
+          ],
+          "conf": 0.49325352907180786,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            583.2533569335938,
+            692.7174682617188,
+            629.6830444335938,
+            808.9996948242188
+          ],
+          "conf": 0.4896347224712372,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            24.215396881103516,
+            638.5836181640625,
+            75.40015411376953,
+            800.8963623046875
+          ],
+          "conf": 0.43705669045448303,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            698.7406005859375,
+            714.3070678710938,
+            736.780029296875,
+            822.0617065429688
+          ],
+          "conf": 0.4176466166973114,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1890.6265869140625,
+            565.907470703125,
+            1919.43310546875,
+            978.9530029296875
+          ],
+          "conf": 0.35225018858909607,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            403.54595947265625,
+            667.5518798828125,
+            448.70562744140625,
+            854.5205078125
+          ],
+          "conf": 0.34368130564689636,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1135.5325927734375,
+            719.336181640625,
+            1165.4912109375,
+            793.392822265625
+          ],
+          "conf": 0.3216424584388733,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            408.10333251953125,
+            672.2460327148438,
+            447.2857666015625,
+            815.1060791015625
+          ],
+          "conf": 0.2869831919670105,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            806.6105346679688,
+            722.1513671875,
+            831.9146118164062,
+            771.2657470703125
+          ],
+          "conf": 0.26529461145401,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [
+        {
+          "xyxy": [
+            1344.392578125,
+            621.6524658203125,
+            1472.3316650390625,
+            990.1140747070312
+          ],
+          "conf": 0.5090808272361755,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            56.82551574707031,
+            628.9146728515625,
+            149.08270263671875,
+            912.4916381835938
+          ],
+          "conf": 0.39450711011886597,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1223.12841796875,
+            715.906494140625,
+            1273.982666015625,
+            864.66357421875
+          ],
+          "conf": 0.3735228180885315,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1470.677734375,
+            638.65234375,
+            1593.60302734375,
+            992.43701171875
+          ],
+          "conf": 0.33107200264930725,
+          "cls": 0
+        }
+      ],
+      "counts": {
+        "gt": 5,
+        "pretrained": 20,
+        "finetuned": 4
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0004_frame_004530_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0004_frame_004530_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0004_frame_004530_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0004_frame_004530_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0004_frame_004530_overlay.png"
+      }
+    },
+    {
+      "category": "model_disagreement_supplement",
+      "selection_reason": "Largest absolute difference in detection count at conf 0.25 among a deterministic 20-frame-per-video sample; symmetric criterion, not a quality judgment.",
+      "video_id": "video_0013",
+      "frame_index": 12540,
+      "image": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\test\\set04\\video_0013\\frame_012540.jpg",
+      "label": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\test\\set04\\video_0013\\frame_012540.txt",
+      "width": 1920,
+      "height": 1080,
+      "gt_boxes": [
+        {
+          "xyxy": [
+            318.70001279999997,
+            690.5300004000001,
+            358.33000319999996,
+            801.8000028
+          ],
+          "cls": 0,
+          "area": 0.0021265572564235996
+        },
+        {
+          "xyxy": [
+            1302.3100128,
+            713.3900040000001,
+            1333.1200032000002,
+            810.320004
+          ],
+          "cls": 0,
+          "area": 0.0014402065825000001
+        },
+        {
+          "xyxy": [
+            1214.4199968,
+            720.410004,
+            1248.15,
+            811.4000039999999
+          ],
+          "cls": 0,
+          "area": 0.0014800795675000001
+        },
+        {
+          "xyxy": [
+            1243.3900128,
+            714.15,
+            1270.3600032000002,
+            807.8099976
+          ],
+          "cls": 0,
+          "area": 0.0012181757504514
+        },
+        {
+          "xyxy": [
+            1362.8400000000001,
+            706.1099994,
+            1396.4199936,
+            813.2200038
+          ],
+          "cls": 0,
+          "area": 0.0017345453618094
+        }
+      ],
+      "pretrained_boxes": [
+        {
+          "xyxy": [
+            1478.6868896484375,
+            692.1428833007812,
+            1523.35986328125,
+            837.8514404296875
+          ],
+          "conf": 0.7534368634223938,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1404.57958984375,
+            689.9951171875,
+            1460.9013671875,
+            834.103759765625
+          ],
+          "conf": 0.7389598488807678,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1709.9571533203125,
+            684.6033935546875,
+            1758.3292236328125,
+            832.7822265625
+          ],
+          "conf": 0.7093310952186584,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1557.225341796875,
+            705.790283203125,
+            1597.83935546875,
+            821.9752807617188
+          ],
+          "conf": 0.6901047229766846,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1524.6943359375,
+            708.1455688476562,
+            1562.1492919921875,
+            824.2765502929688
+          ],
+          "conf": 0.6480500102043152,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1652.647705078125,
+            662.0807495117188,
+            1704.1197509765625,
+            860.4803466796875
+          ],
+          "conf": 0.6324310302734375,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1608.999755859375,
+            680.90966796875,
+            1666.5,
+            857.373291015625
+          ],
+          "conf": 0.5420643091201782,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            322.02166748046875,
+            692.649169921875,
+            356.32989501953125,
+            801.2887573242188
+          ],
+          "conf": 0.5368018746376038,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1292.968505859375,
+            714.335693359375,
+            1335.943115234375,
+            813.09423828125
+          ],
+          "conf": 0.4999321699142456,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1359.5657958984375,
+            707.779052734375,
+            1397.404541015625,
+            828.5264892578125
+          ],
+          "conf": 0.48297837376594543,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1332.93115234375,
+            706.6915283203125,
+            1363.932373046875,
+            796.8724365234375
+          ],
+          "conf": 0.4586396813392639,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            292.1187744140625,
+            697.5806884765625,
+            316.8651123046875,
+            785.1443481445312
+          ],
+          "conf": 0.4402161240577698,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1447.140625,
+            695.258056640625,
+            1475.2890625,
+            834.47607421875
+          ],
+          "conf": 0.35915645956993103,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1215.2918701171875,
+            714.28271484375,
+            1248.4888916015625,
+            804.8314819335938
+          ],
+          "conf": 0.3239864706993103,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1078.8642578125,
+            715.1064453125,
+            1101.735107421875,
+            775.205078125
+          ],
+          "conf": 0.315482497215271,
+          "cls": 0
+        },
+        {
+          "xyxy": [
+            1361.779296875,
+            707.0294189453125,
+            1392.3289794921875,
+            805.77294921875
+          ],
+          "conf": 0.26873427629470825,
+          "cls": 0
+        }
+      ],
+      "finetuned_boxes": [],
+      "counts": {
+        "gt": 5,
+        "pretrained": 16,
+        "finetuned": 0
+      },
+      "montage": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0013_frame_012540_montage.png",
+      "panels": {
+        "original_gt": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0013_frame_012540_original_gt.png",
+        "pretrained": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0013_frame_012540_pretrained.png",
+        "finetuned": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0013_frame_012540_finetuned.png",
+        "overlay": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\visuals\\model_disagreement_supplement\\video_0013_frame_012540_overlay.png"
+      }
+    }
+  ]
+}

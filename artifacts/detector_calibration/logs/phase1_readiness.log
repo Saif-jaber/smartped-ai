@@ -1,0 +1,32 @@
+SmartPed AI detector calibration - Phase 1 readiness
+Generated UTC: 2026-11-05T12:29:54.802367+00:00
+Project root: C:\Users\vlctus\OneDrive\Desktop\Pattern\project development
+
+Checkpoints:
+  pretrained_yolo11s: exists=True size=19313732 sha256=85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5 matches=True
+  finetuned_train5_best: exists=True size=19149914 sha256=9e1d876ff9ccc49d03f43da9dbe5bb4df71c2a7514dbaad24585e4a1f855ecfb matches=True
+
+Previous comparison report: C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\artifacts\detector_comparison\DETECTOR_COMPARISON_REPORT.md
+  exists=True hashes_present={'pretrained_yolo11s': True, 'finetuned_train5_best': True}
+
+data.yaml: C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\artifacts\pie_detection_yolo\data.yaml
+Validation split sets: ['set06'] (only set06=True)
+Test split sets (not used): ['set04']
+Validation images: 3911
+Validation labels: 3911
+Validation GT pedestrian boxes: 11200
+Validation class distribution: {0: 11200}
+Boxes/image min/median/mean/p95/max: {'min': 1, 'median': 2.0, 'mean': 2.863717719253388, 'p95': 8.0, 'max': 9}
+Empty label files: 0
+
+CUDA available: True
+GPU: ['NVIDIA GeForce RTX 4070 Laptop GPU']
+Ultralytics: 8.4.198
+Torch: 2.14.1+cu126
+
+Class mappings:
+  Pretrained: nc=80 class0='person'
+  Fine-tuned: nc=1 class0='pedestrian'
+
+Compatibility ok: True
+Issues: none

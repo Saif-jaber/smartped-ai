@@ -1,0 +1,107 @@
+{
+  "model_key": "finetuned_train5_best",
+  "model_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\runs\\detect\\train-5\\weights\\best.pt",
+  "started_utc": "2026-11-05T10:40:41.953796+00:00",
+  "status": "success",
+  "results_dict": {
+    "metrics/precision(B)": 0.3861309476961059,
+    "metrics/recall(B)": 0.36902186617131644,
+    "metrics/mAP50(B)": 0.2884279002249578,
+    "metrics/mAP50-95(B)": 0.16294831890526534,
+    "fitness": 0.16294831890526534
+  },
+  "per_class": {
+    "names": {
+      "0": "pedestrian"
+    },
+    "ap_class_index": [
+      0
+    ],
+    "precision_at_max_f1": [
+      0.3861309476961059
+    ],
+    "recall_at_max_f1": [
+      0.36902186617131644
+    ],
+    "f1_at_max_f1": [
+      0.3773825914136955
+    ],
+    "ap50": [
+      0.2884279002249578
+    ],
+    "ap50_95": [
+      0.16294831890526534
+    ],
+    "all_ap_10_iou": [
+      [
+        0.2884279002249578,
+        0.2758609593235151,
+        0.25997597054814736,
+        0.23890103082033193,
+        0.2097967219754609,
+        0.168551864634797,
+        0.11508532194402009,
+        0.057186454391439365,
+        0.014432482221083965,
+        0.0012644829688997301
+      ]
+    ]
+  },
+  "best_f1_confidence": 0.14914914914914915,
+  "speed_ms_per_image": {
+    "preprocess": 1.1984573491897357,
+    "inference": 114.00854628528418,
+    "loss": 0.0006752666846331425,
+    "postprocess": 8.036140753324965
+  },
+  "fps": {
+    "inference_only": 8.771272264955424,
+    "preprocess_plus_inference_plus_postprocess": 8.114041596126302
+  },
+  "images_evaluated": 10593,
+  "ground_truth_boxes": 38047,
+  "gt_boxes_per_class": [
+    38047
+  ],
+  "gt_images_per_class": [
+    10593
+  ],
+  "predicted_boxes": {
+    "conf_0.001": 966295,
+    "conf_0.250": 22434,
+    "conf_0.500": 9243
+  },
+  "max_predicted_boxes_single_image": 226,
+  "images_with_at_least_one_prediction_conf025": 7790,
+  "per_image_pred_boxes_conf025_summary": {
+    "min": 0,
+    "median": 2.0,
+    "mean": 2.117813650523931,
+    "p95": 6.0,
+    "max": 17
+  },
+  "fixed_conf_0.25_iou_0.50_matching": {
+    "tp": 10567,
+    "fp": 11867,
+    "fn": 27480,
+    "precision": 0.47102612106623876,
+    "recall": 0.2777354324913922,
+    "f1": 0.34943205304145103,
+    "annotated_pedestrians_detected": 10567
+  },
+  "confusion_matrix": [
+    [
+      32230.0,
+      934065.0
+    ],
+    [
+      5817.0,
+      0.0
+    ]
+  ],
+  "confusion_matrix_names": {
+    "0": "pedestrian"
+  },
+  "save_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\runs\\finetuned_train5_best_test_set04",
+  "wall_clock_seconds": 1429.417
+}

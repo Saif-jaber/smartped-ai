@@ -1,0 +1,280 @@
+{
+  "annotated_video": {
+    "codec": "mp4v",
+    "decoded_frame_count": 1800,
+    "first_frame_decodes": true,
+    "fps": 30.0,
+    "frame_count": 1800,
+    "frames_written": 1800,
+    "fully_decoded": true,
+    "height": 1080,
+    "opens_and_decodes": true,
+    "output_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\annotated_video.mp4",
+    "resolution_matches_source": true,
+    "width": 1920
+  },
+  "input": {
+    "confidence_threshold": 0.1254522055,
+    "fps": 30.0,
+    "height": 1080,
+    "pedestrian_confidence_threshold": 0.1254522055,
+    "processed_duration_seconds": 60.0,
+    "processed_frame_count": 1800,
+    "requested_duration_seconds": 60.0,
+    "set_id": "set01",
+    "source": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\dataset\\PIE_clips\\set01\\video_0001.mp4",
+    "source_duration_seconds": 600.0,
+    "source_frame_count": 18000,
+    "vehicle_confidence_threshold": 0.25,
+    "video_id": "video_0001",
+    "width": 1920
+  },
+  "integration": {
+    "available_predictions": 0,
+    "frozen_model_threshold": 0.4019572450275602,
+    "interaction_rows": 21275,
+    "tracker_feature_compatible": false,
+    "unavailable_predictions": 21275,
+    "unavailable_reasons": {
+      "no_identity_mapping": 21275
+    }
+  },
+  "interaction": {
+    "invalid_movement_estimates": 1548,
+    "missing_observation_statistics": {
+      "pair": {
+        "gap_count_between_pair_observations": 1571,
+        "gaps_exceeding_maximum": 210,
+        "interpretation": "Unobserved slots within an observed identity span; not proof that either object was present or detected in those frames.",
+        "unobserved_frame_slots_between_pair_observations": 14400
+      },
+      "pedestrian": {
+        "gap_count_within_observed_track_spans": 75,
+        "gaps_exceeding_maximum": 12,
+        "observation_count": 3735,
+        "track_count": 74,
+        "unobserved_frame_slots_within_track_spans": 572
+      },
+      "vehicle": {
+        "gap_count_within_observed_track_spans": 881,
+        "gaps_exceeding_maximum": 92,
+        "observation_count": 13226,
+        "track_count": 429,
+        "unobserved_frame_slots_within_track_spans": 8734
+      }
+    },
+    "pair_observations": 21275,
+    "pixel_distance_threshold": 150.0,
+    "timestamp_validation": {
+      "common_frames": 1412,
+      "consistent_frames": 1412,
+      "frame_index_is_primary_alignment_key": true,
+      "frames_with_missing_or_invalid_timestamps": 0,
+      "maximum_timestamp_spread_seconds": 0.0,
+      "mismatched_frames": 0,
+      "tolerance_seconds": 1e-06
+    },
+    "unique_pairs": 1338,
+    "valid_movement_estimates": 19727
+  },
+  "outputs": {
+    "annotated_video.mp4": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\annotated_video.mp4",
+    "integrated_interactions.csv": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\integrated_interactions.csv",
+    "interaction_observations.csv": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\interaction_observations.csv",
+    "interaction_summary.csv": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\interaction_summary.csv",
+    "pedestrian_detections.csv": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\pedestrian_detections.csv",
+    "pedestrian_trajectories.csv": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\pedestrian_trajectories.csv",
+    "vehicle_detections.csv": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\vehicle_detections.csv",
+    "vehicle_trajectories.csv": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545\\vehicle_trajectories.csv"
+  },
+  "pedestrian": {
+    "observation_count": 3735,
+    "trajectory_summary": {
+      "coverage_diagnostics": {
+        "gap_events": {
+          "frame_gap_2_5": 38,
+          "frame_gap_6_15": 25,
+          "frame_gap_gt_15": 12
+        },
+        "long_gap_missing_frame_share": 0.506993006993007,
+        "missing_frames": {
+          "frame_gap_2_5": 69,
+          "frame_gap_6_15": 213,
+          "frame_gap_gt_15": 290
+        },
+        "total_gap_events": 75,
+        "total_missing_frames": 572,
+        "tracks_with_long_gaps": 6,
+        "tracks_with_missing_observations": 38
+      },
+      "error_issues": 0,
+      "expected_observations_within_track_spans": 4307,
+      "long_gap_observations": 12,
+      "missing_observations_within_track_spans": 572,
+      "observation_coverage_ratio": 0.8671929417227768,
+      "observations": 3735,
+      "standing_observations": 441,
+      "track_duration_seconds": {
+        "max": 31.3,
+        "median": 0.31666666666667,
+        "min": 0.0,
+        "total": 141.10000000000002
+      },
+      "tracks": 74,
+      "tracks_with_missing_observations": 38,
+      "unknown_state_observations": 86,
+      "valid_velocity_observations": 3649,
+      "walking_observations": 3208,
+      "warning_issues": 0
+    },
+    "unique_tracks": 74
+  },
+  "runtime": {
+    "device": "cuda",
+    "model_load_note": "The pedestrian and vehicle pipelines each instantiate their configured checkpoint once; they run sequentially, not concurrently.",
+    "models_loaded_by_existing_pipelines": 2,
+    "pedestrian_detector_checkpoint": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\runs\\detect\\train-5\\weights\\best.pt",
+    "pedestrian_tracker_config": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\smartped_botsort.yaml",
+    "shared_detector_checkpoint": null,
+    "vehicle_detector_checkpoint": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\yolo11s.pt",
+    "vehicle_tracker_config": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\smartped_vehicle_botsort.yaml"
+  },
+  "schema_version": 1,
+  "timing": {
+    "processed_frames_per_second": 8.853957281593262,
+    "real_time_factor": 0.29513190938644207,
+    "stage_seconds": {
+      "annotated_video_rendering": 76.67766879999908,
+      "intention_integration": 0.5685235999990255,
+      "interaction_analysis": 0.8280034000017622,
+      "pedestrian_detection_tracking_and_trajectory": 61.43719350000174,
+      "vehicle_detection_tracking_and_trajectory": 56.149429399996734
+    },
+    "total_seconds": 203.2989252999978
+  },
+  "vehicle": {
+    "class_counts": {
+      "bicycle": 204,
+      "bus": 21,
+      "car": 12527,
+      "motorcycle": 3,
+      "truck": 471
+    },
+    "detection_count": 13226,
+    "existing_pipeline_metrics": {
+      "annotations": {
+        "box_count_all_states": 1312,
+        "by_pie_type": {
+          "car": {
+            "box_count": 1312,
+            "mapped_coco_class": "car",
+            "mapped_visible_box_count": 1300,
+            "outside_box_count": 12,
+            "unique_track_count": 10,
+            "unmapped_reason": null,
+            "visible_occluded_box_count": 48,
+            "visible_valid_box_count": 1300
+          }
+        },
+        "mapped_visible_box_count": 1300,
+        "unique_track_count": 10,
+        "unmapped_or_out_of_scope_box_count": 0,
+        "visible_occluded_box_count": 48,
+        "visible_valid_box_count": 1300
+      },
+      "evaluation": "set01/video_0001 first 60 seconds; one held-out experiment clip",
+      "input": {
+        "annotation_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/dataset/annotations/set01/video_0001_annt.xml",
+        "duration_seconds": 60.0,
+        "fps": 30.0,
+        "frame_limit": 1800,
+        "model_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/yolo11s.pt",
+        "source_frame_count": 18000,
+        "tracker_config": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/smartped_vehicle_botsort.yaml",
+        "video_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/dataset/PIE_clips/set01/video_0001.mp4"
+      },
+      "matching": {
+        "annotation_match_rate": 0.9484615384615385,
+        "eligible_annotation_boxes": 1300,
+        "iou_threshold": 0.5,
+        "matched_annotation_boxes": 1233,
+        "matched_pairs": 1233,
+        "matching_method": "greedy one-to-one maximum-IoU assignment per frame and mapped class",
+        "mean_iou_matched_pairs": 0.8726387732647728,
+        "unmatched_detections_not_counted_as_false_positives": "PIE vehicle annotations may not be exhaustive."
+      },
+      "models": {
+        "allowed_coco_classes": {
+          "bicycle": 1,
+          "bus": 5,
+          "car": 2,
+          "motorcycle": 3,
+          "truck": 7
+        },
+        "detector": "pretrained YOLO11s (no retraining)",
+        "pie_type_to_coco_class": {
+          "bicycle": "bicycle",
+          "bike": null,
+          "bus": "bus",
+          "car": "car",
+          "train": null,
+          "truck": "truck"
+        },
+        "pie_unmapped_reasons": {
+          "bike": "Ambiguous PIE category; no automatic bicycle/motorcycle mapping.",
+          "train": "Out of scope: not requested among the five COCO vehicle classes."
+        },
+        "tracker": "BoT-SORT with separate smartped_vehicle_botsort.yaml"
+      },
+      "outputs": {
+        "annotation_matches": "annotation_matches.csv",
+        "detections": "vehicle_detections.csv",
+        "metrics": "vehicle_metrics.json",
+        "report": "VEHICLE_TRACKING_REPORT.md",
+        "trajectories": "vehicle_trajectories.csv",
+        "visual_samples_dir": "visual_samples/"
+      },
+      "predictions": {
+        "detection_count": 13226,
+        "detection_counts_by_class": {
+          "bicycle": 204,
+          "bus": 21,
+          "car": 12527,
+          "motorcycle": 3,
+          "truck": 471
+        },
+        "detections_without_track_id": 0,
+        "unique_track_count": 429,
+        "unique_tracks_by_class": {
+          "bicycle": 10,
+          "bus": 9,
+          "car": 346,
+          "motorcycle": 1,
+          "truck": 63
+        }
+      },
+      "schema_version": 1,
+      "trajectory": {
+        "coordinate_semantics": "image-space pixels; not real-world distances or velocities",
+        "gaps_between_observations": 881,
+        "gaps_exceeding_limit": 92,
+        "max_track_gap_frames": 15,
+        "missing_frames_between_observations": 8734,
+        "observation_rows_with_track_id": 13226,
+        "uninterpolated_gaps": true
+      },
+      "visual_samples": [
+        {
+          "detection_count": 5,
+          "frame_index": 0,
+          "path": "visual_samples/frame_000000.jpg",
+          "timestamp_seconds": 0.0
+        }
+      ]
+    },
+    "unique_tracks": 429
+  },
+  "warnings": [
+    "Crossing predictions are unavailable: the saved model expects annotation-derived features and has no verified tracker-ID crosswalk; probabilities remain null."
+  ]
+}

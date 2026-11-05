@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "evaluation": "set01/video_0001 first 60 seconds; one held-out experiment clip",
+  "input": {
+    "video_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/dataset/PIE_clips/set01/video_0001.mp4",
+    "annotation_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/dataset/annotations/set01/video_0001_annt.xml",
+    "model_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/yolo11s.pt",
+    "tracker_config": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/smartped_vehicle_botsort.yaml",
+    "fps": 30.0,
+    "source_frame_count": 18000,
+    "frame_limit": 1800,
+    "duration_seconds": 60.0
+  },
+  "models": {
+    "detector": "pretrained YOLO11s (no retraining)",
+    "tracker": "BoT-SORT with separate smartped_vehicle_botsort.yaml",
+    "allowed_coco_classes": {
+      "bicycle": 1,
+      "car": 2,
+      "motorcycle": 3,
+      "bus": 5,
+      "truck": 7
+    },
+    "pie_type_to_coco_class": {
+      "car": "car",
+      "bicycle": "bicycle",
+      "bike": null,
+      "bus": "bus",
+      "truck": "truck",
+      "train": null
+    },
+    "pie_unmapped_reasons": {
+      "bike": "Ambiguous PIE category; no automatic bicycle/motorcycle mapping.",
+      "train": "Out of scope: not requested among the five COCO vehicle classes."
+    }
+  },
+  "predictions": {
+    "detection_count": 13226,
+    "unique_track_count": 429,
+    "detections_without_track_id": 0,
+    "detection_counts_by_class": {
+      "bicycle": 204,
+      "car": 12527,
+      "motorcycle": 3,
+      "bus": 21,
+      "truck": 471
+    },
+    "unique_tracks_by_class": {
+      "bicycle": 10,
+      "car": 346,
+      "motorcycle": 1,
+      "bus": 9,
+      "truck": 63
+    }
+  },
+  "annotations": {
+    "box_count_all_states": 1312,
+    "unique_track_count": 10,
+    "visible_valid_box_count": 1300,
+    "visible_occluded_box_count": 48,
+    "mapped_visible_box_count": 1300,
+    "unmapped_or_out_of_scope_box_count": 0,
+    "by_pie_type": {
+      "car": {
+        "box_count": 1312,
+        "visible_valid_box_count": 1300,
+        "mapped_visible_box_count": 1300,
+        "visible_occluded_box_count": 48,
+        "outside_box_count": 12,
+        "unique_track_count": 10,
+        "mapped_coco_class": "car",
+        "unmapped_reason": null
+      }
+    }
+  },
+  "matching": {
+    "matching_method": "greedy one-to-one maximum-IoU assignment per frame and mapped class",
+    "iou_threshold": 0.5,
+    "eligible_annotation_boxes": 1300,
+    "matched_annotation_boxes": 1233,
+    "annotation_match_rate": 0.9484615384615385,
+    "mean_iou_matched_pairs": 0.8726387732647728,
+    "matched_pairs": 1233,
+    "unmatched_detections_not_counted_as_false_positives": "PIE vehicle annotations may not be exhaustive."
+  },
+  "trajectory": {
+    "observation_rows_with_track_id": 13226,
+    "max_track_gap_frames": 15,
+    "gaps_between_observations": 881,
+    "missing_frames_between_observations": 8734,
+    "gaps_exceeding_limit": 92,
+    "uninterpolated_gaps": true,
+    "coordinate_semantics": "image-space pixels; not real-world distances or velocities"
+  },
+  "visual_samples": [
+    {
+      "frame_index": 0,
+      "timestamp_seconds": 0.0,
+      "detection_count": 5,
+      "path": "visual_samples/frame_000000.jpg"
+    },
+    {
+      "frame_index": 164,
+      "timestamp_seconds": 5.466666666666667,
+      "detection_count": 6,
+      "path": "visual_samples/frame_000164.jpg"
+    },
+    {
+      "frame_index": 327,
+      "timestamp_seconds": 10.9,
+      "detection_count": 5,
+      "path": "visual_samples/frame_000327.jpg"
+    },
+    {
+      "frame_index": 491,
+      "timestamp_seconds": 16.366666666666667,
+      "detection_count": 3,
+      "path": "visual_samples/frame_000491.jpg"
+    },
+    {
+      "frame_index": 654,
+      "timestamp_seconds": 21.8,
+      "detection_count": 7,
+      "path": "visual_samples/frame_000654.jpg"
+    },
+    {
+      "frame_index": 818,
+      "timestamp_seconds": 27.266666666666666,
+      "detection_count": 5,
+      "path": "visual_samples/frame_000818.jpg"
+    },
+    {
+      "frame_index": 981,
+      "timestamp_seconds": 32.7,
+      "detection_count": 7,
+      "path": "visual_samples/frame_000981.jpg"
+    },
+    {
+      "frame_index": 1145,
+      "timestamp_seconds": 38.166666666666664,
+      "detection_count": 13,
+      "path": "visual_samples/frame_001145.jpg"
+    },
+    {
+      "frame_index": 1308,
+      "timestamp_seconds": 43.6,
+      "detection_count": 13,
+      "path": "visual_samples/frame_001308.jpg"
+    },
+    {
+      "frame_index": 1472,
+      "timestamp_seconds": 49.06666666666667,
+      "detection_count": 6,
+      "path": "visual_samples/frame_001472.jpg"
+    },
+    {
+      "frame_index": 1635,
+      "timestamp_seconds": 54.5,
+      "detection_count": 8,
+      "path": "visual_samples/frame_001635.jpg"
+    },
+    {
+      "frame_index": 1799,
+      "timestamp_seconds": 59.96666666666667,
+      "detection_count": 7,
+      "path": "visual_samples/frame_001799.jpg"
+    }
+  ],
+  "outputs": {
+    "detections": "vehicle_detections.csv",
+    "trajectories": "vehicle_trajectories.csv",
+    "annotation_matches": "annotation_matches.csv",
+    "visual_samples_dir": "visual_samples/",
+    "metrics": "vehicle_metrics.json",
+    "report": "VEHICLE_TRACKING_REPORT.md"
+  }
+}

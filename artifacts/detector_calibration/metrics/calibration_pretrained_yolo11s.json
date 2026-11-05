@@ -1,0 +1,163 @@
+{
+  "model_key": "pretrained_yolo11s",
+  "model_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\yolo11s.pt",
+  "started_utc": "2026-11-05T12:57:16.951231+00:00",
+  "status": "success",
+  "standard_metrics": {
+    "results_dict": {
+      "metrics/precision(B)": 0.29150382239510575,
+      "metrics/recall(B)": 0.31776785714285716,
+      "metrics/mAP50(B)": 0.18150797985888173,
+      "metrics/mAP50-95(B)": 0.09766916779474621,
+      "fitness": 0.09766916779474621
+    },
+    "ap50": 0.18150797985888173,
+    "ap50_95": 0.09766916779474621,
+    "speed_ms_per_image": {
+      "preprocess": 1.1122787522348345,
+      "inference": 115.55312702633096,
+      "loss": 0.0005410381031674015,
+      "postprocess": 8.559053720274717
+    },
+    "images_evaluated": 3911,
+    "ground_truth_boxes": 11200,
+    "gt_boxes_per_class": [
+      11200
+    ],
+    "names": {
+      "0": "pedestrian"
+    }
+  },
+  "standard_metrics_error": null,
+  "threshold_sweep": [
+    {
+      "threshold": 0.05,
+      "tp": 5905,
+      "fp": 56981,
+      "fn": 5295,
+      "precision": 0.0939000731482365,
+      "recall": 0.5272321428571428,
+      "f1": 0.15940933509704938,
+      "predicted_boxes": 62886,
+      "images_with_predictions": 3822
+    },
+    {
+      "threshold": 0.1,
+      "tp": 5435,
+      "fp": 35050,
+      "fn": 5765,
+      "precision": 0.13424725206866742,
+      "recall": 0.48526785714285714,
+      "f1": 0.21031246976879173,
+      "predicted_boxes": 40485,
+      "images_with_predictions": 3750
+    },
+    {
+      "threshold": 0.15,
+      "tp": 5064,
+      "fp": 25494,
+      "fn": 6136,
+      "precision": 0.16571765167877478,
+      "recall": 0.4521428571428571,
+      "f1": 0.2425403515494037,
+      "predicted_boxes": 30558,
+      "images_with_predictions": 3676
+    },
+    {
+      "threshold": 0.2,
+      "tp": 4734,
+      "fp": 19849,
+      "fn": 6466,
+      "precision": 0.1925721026725786,
+      "recall": 0.4226785714285714,
+      "f1": 0.26459491937512225,
+      "predicted_boxes": 24583,
+      "images_with_predictions": 3625
+    },
+    {
+      "threshold": 0.25,
+      "tp": 4451,
+      "fp": 16038,
+      "fn": 6749,
+      "precision": 0.21723851822929377,
+      "recall": 0.3974107142857143,
+      "f1": 0.28091766859162487,
+      "predicted_boxes": 20489,
+      "images_with_predictions": 3574
+    },
+    {
+      "threshold": 0.3,
+      "tp": 4162,
+      "fp": 13338,
+      "fn": 7038,
+      "precision": 0.23782857142857142,
+      "recall": 0.37160714285714286,
+      "f1": 0.2900348432055749,
+      "predicted_boxes": 17500,
+      "images_with_predictions": 3521
+    },
+    {
+      "threshold": 0.35,
+      "tp": 3944,
+      "fp": 11287,
+      "fn": 7256,
+      "precision": 0.25894557153174447,
+      "recall": 0.35214285714285715,
+      "f1": 0.29843744088381063,
+      "predicted_boxes": 15231,
+      "images_with_predictions": 3464
+    },
+    {
+      "threshold": 0.4,
+      "tp": 3722,
+      "fp": 9607,
+      "fn": 7478,
+      "precision": 0.2792407532448046,
+      "recall": 0.33232142857142855,
+      "f1": 0.3034775164091484,
+      "predicted_boxes": 13329,
+      "images_with_predictions": 3396
+    },
+    {
+      "threshold": 0.45,
+      "tp": 3489,
+      "fp": 8306,
+      "fn": 7711,
+      "precision": 0.29580330648579906,
+      "recall": 0.3115178571428571,
+      "f1": 0.303457273320287,
+      "predicted_boxes": 11795,
+      "images_with_predictions": 3317
+    },
+    {
+      "threshold": 0.5,
+      "tp": 3253,
+      "fp": 7171,
+      "fn": 7947,
+      "precision": 0.3120683039140445,
+      "recall": 0.29044642857142855,
+      "f1": 0.3008694043655198,
+      "predicted_boxes": 10424,
+      "images_with_predictions": 3230
+    }
+  ],
+  "baseline_conf_0.25": {
+    "threshold": 0.25,
+    "tp": 4451,
+    "fp": 16038,
+    "fn": 6749,
+    "precision": 0.21723851822929377,
+    "recall": 0.3974107142857143,
+    "f1": 0.28091766859162487,
+    "predicted_boxes": 20489,
+    "images_with_predictions": 3574
+  },
+  "images_captured": 3911,
+  "ground_truth_boxes_captured": 11200,
+  "image_order_sha256": "7421d406f800f2003c9c6a7313dd0418ce7290036730c78570439fea7ffffc95",
+  "gt_sanity_checked_images": 5,
+  "gt_sanity_max_abs_diff_px": 0.0001045804687009877,
+  "per_image_predictions_file": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_calibration\\metrics\\per_image_predictions_pretrained_yolo11s.jsonl.gz",
+  "validator_save_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_calibration\\runs\\calibration_pretrained_yolo11s_set06",
+  "wall_clock_seconds": 538.033
+}

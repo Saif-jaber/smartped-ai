@@ -1,0 +1,18 @@
+Calibrating pretrained_yolo11s: C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\yolo11s.pt
+Dataset: C:\Users\vlctus\AppData\Local\Temp\opencode\smartped_detector_calibration\set06_20261105T125715Z\pie_detection_yolo\data.yaml (val/set06 only)
+status=success images=3911 gt_boxes=11200
+image_order_sha256=7421d406f800f2003c9c6a7313dd0418ce7290036730c78570439fea7ffffc95
+gt_sanity_max_abs_diff_px=0.000105
+standard_metrics={'metrics/precision(B)': 0.29150382239510575, 'metrics/recall(B)': 0.31776785714285716, 'metrics/mAP50(B)': 0.18150797985888173, 'metrics/mAP50-95(B)': 0.09766916779474621, 'fitness': 0.09766916779474621}
+baseline_conf_0.25={'threshold': 0.25, 'tp': 4451, 'fp': 16038, 'fn': 6749, 'precision': 0.21723851822929377, 'recall': 0.3974107142857143, 'f1': 0.28091766859162487, 'predicted_boxes': 20489, 'images_with_predictions': 3574}
+threshold_sweep:
+  t=0.05 tp=5905 fp=56981 fn=5295 P=0.093900 R=0.527232 F1=0.159409 pred=62886
+  t=0.10 tp=5435 fp=35050 fn=5765 P=0.134247 R=0.485268 F1=0.210312 pred=40485
+  t=0.15 tp=5064 fp=25494 fn=6136 P=0.165718 R=0.452143 F1=0.242540 pred=30558
+  t=0.20 tp=4734 fp=19849 fn=6466 P=0.192572 R=0.422679 F1=0.264595 pred=24583
+  t=0.25 tp=4451 fp=16038 fn=6749 P=0.217239 R=0.397411 F1=0.280918 pred=20489
+  t=0.30 tp=4162 fp=13338 fn=7038 P=0.237829 R=0.371607 F1=0.290035 pred=17500
+  t=0.35 tp=3944 fp=11287 fn=7256 P=0.258946 R=0.352143 F1=0.298437 pred=15231
+  t=0.40 tp=3722 fp=9607 fn=7478 P=0.279241 R=0.332321 F1=0.303478 pred=13329
+  t=0.45 tp=3489 fp=8306 fn=7711 P=0.295803 R=0.311518 F1=0.303457 pred=11795
+  t=0.50 tp=3253 fp=7171 fn=7947 P=0.312068 R=0.290446 F1=0.300869 pred=10424

@@ -1,0 +1,18 @@
+{
+  "expected_model_name": "random_forest",
+  "feature_metadata_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\crossing_intention\\feature_metadata.json",
+  "fps": 30.0,
+  "generation_config_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\crossing_intention\\generation_config.json",
+  "interaction_observations_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\interaction_analysis\\interaction_observations.csv",
+  "interaction_run_config_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\interaction_analysis\\interaction_run_config.json",
+  "interaction_summary_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\interaction_analysis\\interaction_summary.csv",
+  "max_prediction_age_frames": 30,
+  "minimum_observations_for_closest_approach": 3,
+  "model_metrics_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\crossing_intention\\model_metrics.json",
+  "output_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\integrated_analysis",
+  "random_forest_model_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\crossing_intention\\random_forest.pkl",
+  "test_predictions_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\crossing_intention\\test_predictions.csv",
+  "timestamp_tolerance_seconds": 1e-06,
+  "track_mapping_path": null,
+  "validation_predictions_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\crossing_intention\\validation_predictions.csv"
+}

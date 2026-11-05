@@ -24,7 +24,11 @@ runs/
 checkpoints/
 
 # Generated dataset ingestion outputs
-artifacts/dataset_validation/
+artifacts/dataset_validation/*
+!artifacts/dataset_validation/PIE_ANNOTATION_SEMANTICS.md
+artifacts/visual_spot_check/frames/
+artifacts/pie_detection_yolo/
+artifacts/trajectory_extraction/
 
 # Environment variables and secrets
 .env

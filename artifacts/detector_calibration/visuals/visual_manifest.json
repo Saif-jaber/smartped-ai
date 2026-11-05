@@ -1,0 +1,53 @@
+[
+  {
+    "image": "validation/set06/video_0005/frame_000571.jpg",
+    "n_boxes": 2,
+    "median_area": 4.2152560763888557e-05,
+    "occluded": 0,
+    "category": "small_or_distant",
+    "selection_reason": "At least two GT boxes; median normalized box area <= set06 25th percentile (0.00037446).",
+    "file": "visuals/set06_small_or_distant_frame_000571_comparison.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "ground_truth_boxes": 2,
+    "pretrained_predictions_at_0.25": 1,
+    "finetuned_predictions_at_0.25": 0,
+    "finetuned_predictions_at_selected_threshold": 0
+  },
+  {
+    "image": "validation/set06/video_0004/frame_009922.jpg",
+    "n_boxes": 9,
+    "median_area": 0.0005185266203703721,
+    "occluded": 8,
+    "category": "partially_occluded",
+    "selection_reason": "At least two GT boxes and >=1 PIE partial/full occlusion annotation.",
+    "file": "visuals/set06_partially_occluded_frame_009922_comparison.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "ground_truth_boxes": 9,
+    "pretrained_predictions_at_0.25": 7,
+    "finetuned_predictions_at_0.25": 1,
+    "finetuned_predictions_at_selected_threshold": 6
+  },
+  {
+    "image": "validation/set06/video_0004/frame_010023.jpg",
+    "n_boxes": 9,
+    "median_area": 0.000702512345679013,
+    "occluded": 5,
+    "category": "crowded",
+    "selection_reason": "At least nine GT pedestrian boxes in the frame.",
+    "file": "visuals/set06_crowded_frame_010023_comparison.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "ground_truth_boxes": 9,
+    "pretrained_predictions_at_0.25": 7,
+    "finetuned_predictions_at_0.25": 0,
+    "finetuned_predictions_at_selected_threshold": 5
+  }
+]

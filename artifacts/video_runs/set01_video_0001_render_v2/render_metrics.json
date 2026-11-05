@@ -1,0 +1,39 @@
+{
+  "display_rules": {
+    "interaction_panel": "up to three nearest distinct nearby pairs",
+    "measurements": "image-space pixels only",
+    "pedestrian_box_color": "green",
+    "risk_classification_displayed": false,
+    "unavailable_crossing_prediction_text": "crossing unavailable",
+    "vehicle_box_color": "blue"
+  },
+  "fps": 30.0,
+  "frame_count": 1800,
+  "height": 1080,
+  "interaction_rows": 29564,
+  "nearby_pixel_distance_threshold": 150.0,
+  "pedestrian_rows": 5007,
+  "render": {
+    "codec": "mp4v",
+    "fps": 30.0,
+    "frames_written": 1800,
+    "height": 1080,
+    "width": 1920
+  },
+  "rendered_video": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\video_runs\\set01_video_0001_render_v2\\annotated_video.mp4",
+  "source_run_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\video_runs\\set01_video_0001_runner_60s",
+  "source_video": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\dataset\\PIE_clips\\set01\\video_0001.mp4",
+  "vehicle_rows": 13226,
+  "verification": {
+    "decoded_frame_count": 1800,
+    "first_frame_decodes": true,
+    "fps": 30.0,
+    "frame_count": 1800,
+    "fully_decoded": true,
+    "height": 1080,
+    "opens_and_decodes": true,
+    "resolution_matches_source": true,
+    "width": 1920
+  },
+  "width": 1920
+}

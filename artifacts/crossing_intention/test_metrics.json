@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "evaluation_split": "test",
+  "recording_set": "set04",
+  "evaluation_scope": "set04 was used only for this final held-out evaluation; no fitting, feature selection, model selection, or threshold tuning was performed on set04.",
+  "models_loaded_without_retraining": {
+    "logistic_regression": "logistic_regression.pkl",
+    "random_forest": "random_forest.pkl"
+  },
+  "thresholds_source": "saved validation-selected thresholds in model_metrics.json; no set04 tuning",
+  "feature_schema": [
+    "center_x_norm",
+    "center_y_norm",
+    "bbox_width_norm",
+    "bbox_height_norm",
+    "bbox_aspect_ratio",
+    "foot_x_norm",
+    "foot_y_norm",
+    "history_observation_count",
+    "history_coverage_ratio",
+    "max_history_gap_frames",
+    "history_motion_pair_count",
+    "mean_dx_norm_per_frame",
+    "mean_dy_norm_per_frame",
+    "mean_speed_norm_per_frame",
+    "last_dx_norm_per_frame",
+    "last_dy_norm_per_frame",
+    "last_speed_norm_per_frame",
+    "occluded_at_prediction",
+    "action_at_prediction",
+    "look_at_prediction",
+    "gesture_at_prediction"
+  ],
+  "sample_count": 328,
+  "class_distribution": {
+    "negative": 238,
+    "positive": 90
+  },
+  "unique_pedestrian_tracks": 328,
+  "prediction_coverage": {
+    "predicted_samples_per_model": 328,
+    "eligible_samples": 328,
+    "coverage_ratio": 1.0,
+    "coverage_percent": 100.0,
+    "scope": "coverage among eligible set04 samples; not all PIE pedestrians or annotations"
+  },
+  "metrics": {
+    "majority_baseline": {
+      "threshold": 0.5,
+      "sample_count": 328,
+      "positive_count": 90,
+      "negative_count": 238,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "pr_auc_average_precision": 0.27439024390243905,
+      "confusion_matrix": {
+        "rows": "actual [negative, positive]",
+        "columns": "predicted [negative, positive]",
+        "matrix": [
+          [
+            238,
+            0
+          ],
+          [
+            90,
+            0
+          ]
+        ]
+      },
+      "per_class": {
+        "negative": {
+          "precision": 0.725609756097561,
+          "recall": 1.0,
+          "f1": 0.8409893992932862,
+          "support": 238
+        },
+        "positive": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 90
+        }
+      }
+    },
+    "logistic_regression": {
+      "threshold": 0.30541937450960316,
+      "sample_count": 328,
+      "positive_count": 90,
+      "negative_count": 238,
+      "precision": 0.5094339622641509,
+      "recall": 0.9,
+      "f1": 0.6506024096385542,
+      "pr_auc_average_precision": 0.66149819129722,
+      "confusion_matrix": {
+        "rows": "actual [negative, positive]",
+        "columns": "predicted [negative, positive]",
+        "matrix": [
+          [
+            160,
+            78
+          ],
+          [
+            9,
+            81
+          ]
+        ]
+      },
+      "per_class": {
+        "negative": {
+          "precision": 0.9467455621301775,
+          "recall": 0.6722689075630253,
+          "f1": 0.7862407862407862,
+          "support": 238
+        },
+        "positive": {
+          "precision": 0.5094339622641509,
+          "recall": 0.9,
+          "f1": 0.6506024096385542,
+          "support": 90
+        }
+      }
+    },
+    "random_forest": {
+      "threshold": 0.4019572450275602,
+      "sample_count": 328,
+      "positive_count": 90,
+      "negative_count": 238,
+      "precision": 0.5661764705882353,
+      "recall": 0.8555555555555555,
+      "f1": 0.6814159292035398,
+      "pr_auc_average_precision": 0.7242288451887208,
+      "confusion_matrix": {
+        "rows": "actual [negative, positive]",
+        "columns": "predicted [negative, positive]",
+        "matrix": [
+          [
+            179,
+            59
+          ],
+          [
+            13,
+            77
+          ]
+        ]
+      },
+      "per_class": {
+        "negative": {
+          "precision": 0.9322916666666666,
+          "recall": 0.7521008403361344,
+          "f1": 0.8325581395348837,
+          "support": 238
+        },
+        "positive": {
+          "precision": 0.5661764705882353,
+          "recall": 0.8555555555555555,
+          "f1": 0.6814159292035398,
+          "support": 90
+        }
+      }
+    }
+  },
+  "validation_comparison": {
+    "majority_baseline": {
+      "validation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc_average_precision": 0.2815533980582524,
+        "confusion_matrix": {
+          "rows": "actual [negative, positive]",
+          "columns": "predicted [negative, positive]",
+          "matrix": [
+            [
+              74,
+              0
+            ],
+            [
+              29,
+              0
+            ]
+          ]
+        }
+      },
+      "test": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc_average_precision": 0.27439024390243905,
+        "confusion_matrix": {
+          "rows": "actual [negative, positive]",
+          "columns": "predicted [negative, positive]",
+          "matrix": [
+            [
+              238,
+              0
+            ],
+            [
+              90,
+              0
+            ]
+          ]
+        }
+      },
+      "test_minus_validation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc_average_precision": -0.007163154155813367
+      }
+    },
+    "logistic_regression": {
+      "validation": {
+        "precision": 0.6222222222222222,
+        "recall": 0.9655172413793104,
+        "f1": 0.7567567567567568,
+        "pr_auc_average_precision": 0.6855155036144689,
+        "confusion_matrix": {
+          "rows": "actual [negative, positive]",
+          "columns": "predicted [negative, positive]",
+          "matrix": [
+            [
+              57,
+              17
+            ],
+            [
+              1,
+              28
+            ]
+          ]
+        }
+      },
+      "test": {
+        "precision": 0.5094339622641509,
+        "recall": 0.9,
+        "f1": 0.6506024096385542,
+        "pr_auc_average_precision": 0.66149819129722,
+        "confusion_matrix": {
+          "rows": "actual [negative, positive]",
+          "columns": "predicted [negative, positive]",
+          "matrix": [
+            [
+              160,
+              78
+            ],
+            [
+              9,
+              81
+            ]
+          ]
+        }
+      },
+      "test_minus_validation": {
+        "precision": -0.11278825995807129,
+        "recall": -0.06551724137931036,
+        "f1": -0.1061543471182026,
+        "pr_auc_average_precision": -0.024017312317248907
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "precision": 0.65,
+        "recall": 0.896551724137931,
+        "f1": 0.7536231884057971,
+        "pr_auc_average_precision": 0.7670143430666727,
+        "confusion_matrix": {
+          "rows": "actual [negative, positive]",
+          "columns": "predicted [negative, positive]",
+          "matrix": [
+            [
+              60,
+              14
+            ],
+            [
+              3,
+              26
+            ]
+          ]
+        }
+      },
+      "test": {
+        "precision": 0.5661764705882353,
+        "recall": 0.8555555555555555,
+        "f1": 0.6814159292035398,
+        "pr_auc_average_precision": 0.7242288451887208,
+        "confusion_matrix": {
+          "rows": "actual [negative, positive]",
+          "columns": "predicted [negative, positive]",
+          "matrix": [
+            [
+              179,
+              59
+            ],
+            [
+              13,
+              77
+            ]
+          ]
+        }
+      },
+      "test_minus_validation": {
+        "precision": -0.08382352941176474,
+        "recall": -0.040996168582375536,
+        "f1": -0.07220725920225735,
+        "pr_auc_average_precision": -0.04278549787795194
+      }
+    }
+  },
+  "test_predictions_file": "test_predictions.csv"
+}

@@ -1,0 +1,46 @@
+{
+  "primary_run": "max_det=1000 (uncapped)",
+  "test_images": 10593,
+  "ground_truth_boxes": 38047,
+  "ap": {
+    "mAP50_abs_delta": 0.0648106825120697,
+    "mAP50_rel_pct": 28.982867766149823,
+    "mAP50_95_abs_delta": 0.042937680784152596,
+    "mAP50_95_rel_pct": 35.77822887736053
+  },
+  "max_f1": {
+    "precision_abs_delta": 0.07460575083574428,
+    "precision_rel_pct": 23.948544640254465,
+    "recall_abs_delta": -0.03471561641600979,
+    "recall_rel_pct": -8.598561667729477
+  },
+  "fixed_conf_0_25": {
+    "precision_abs_delta": 0.2385167559541605,
+    "precision_rel_pct": 102.58371994572624,
+    "recall_abs_delta": -0.22635161773595813,
+    "recall_rel_pct": -44.903279628760615,
+    "f1_abs_delta": 0.031198193715451794,
+    "f1_rel_pct": 9.803543149534043,
+    "fp_reduction": 51441,
+    "fp_reduction_pct": -81.25513363240033,
+    "fn_increase": 8612,
+    "fn_increase_pct": 45.64341742633029
+  },
+  "prediction_volume": {
+    "boxes_0_25_reduction": 60053,
+    "boxes_0_25_reduction_pct": -72.8029871373671,
+    "boxes_0_50_reduction": 35230,
+    "boxes_0_50_reduction_pct": -79.21660333235896
+  },
+  "speed": {
+    "inference_ms_delta": -1.4373769847961313,
+    "inference_ms_rel_pct": -1.2413574558004292,
+    "fps_inference_only_delta": 0.10855452104552832,
+    "fps_end_to_end_delta": 0.09394347954041127
+  },
+  "max_det_sensitivity": {
+    "pretrained_extra_boxes_1000_vs_300": 3,
+    "pretrained_map50_95_delta": 1.6916100450958815e-08,
+    "finetuned_extra_boxes_1000_vs_300": 0
+  }
+}

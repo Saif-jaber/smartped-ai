@@ -1,0 +1,39 @@
+{
+  "video_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/dataset/PIE_clips/set01/video_0001.mp4",
+  "annotation_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/dataset/annotations/set01/video_0001_annt.xml",
+  "model_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/yolo11s.pt",
+  "tracker_config_path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/smartped_vehicle_botsort.yaml",
+  "output_dir": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/artifacts/vehicle_tracking",
+  "set_id": "set01",
+  "video_id": "video_0001",
+  "duration_seconds": 60.0,
+  "confidence_threshold": 0.25,
+  "iou_match_threshold": 0.5,
+  "max_track_gap_frames": 15,
+  "visual_sample_count": 12,
+  "coco_classes": {
+    "bicycle": 1,
+    "car": 2,
+    "motorcycle": 3,
+    "bus": 5,
+    "truck": 7
+  },
+  "pie_type_to_coco_class": {
+    "car": "car",
+    "bicycle": "bicycle",
+    "bike": null,
+    "bus": "bus",
+    "truck": "truck",
+    "train": null
+  },
+  "pie_unmapped_reasons": {
+    "bike": "Ambiguous PIE category; no automatic bicycle/motorcycle mapping.",
+    "train": "Out of scope: not requested among the five COCO vehicle classes."
+  },
+  "annotation_policy": {
+    "outside_boxes": "counted in source totals but excluded from frame-level matching",
+    "occluded_boxes": "included if visible=0 and geometry is valid; reported separately",
+    "unmapped_pie_types": "counted and reported but excluded from class-aware matching",
+    "unannotated_objects": "not treated as confirmed false positives because PIE annotations are not exhaustive"
+  }
+}

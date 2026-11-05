@@ -1,0 +1,342 @@
+{
+  "data_quality": {
+    "interaction_duplicate_rows_removed": 0,
+    "interaction_source_max_observation_gap_frames": 15,
+    "interaction_source_set_ids": [
+      "set01"
+    ],
+    "interaction_source_video_ids": [
+      "video_0001"
+    ],
+    "interaction_summary_pairs_without_observations": 0,
+    "probability_or_prediction_disagreement_rows": 0,
+    "thresholds_verified_against_frozen_validation_threshold": true
+  },
+  "experiment": {
+    "frozen_validation_threshold": 0.4019572450275602,
+    "inference_performed": false,
+    "interaction_recordings": [
+      {
+        "set_id": "set01",
+        "video_id": "video_0001"
+      }
+    ],
+    "model_target_horizon_frames": 30,
+    "prediction_age_limit_frames": 30,
+    "prediction_source_model": "random_forest",
+    "threshold_tuned_in_this_task": false
+  },
+  "feature_compatibility": {
+    "additional_semantic_mismatch": "The model was fitted on PIE spatial annotation boxes and samples at annotation critical_point. Interaction inputs use YOLO/BoT-SORT tracker boxes and tracker-local IDs; their track histories and sampling semantics are not interchangeable.",
+    "compatible_for_tracker_inference": false,
+    "inference_performed": false,
+    "missing_model_feature_columns_from_interaction_output": [
+      "center_x_norm",
+      "center_y_norm",
+      "bbox_width_norm",
+      "bbox_height_norm",
+      "bbox_aspect_ratio",
+      "foot_x_norm",
+      "foot_y_norm",
+      "history_observation_count",
+      "history_coverage_ratio",
+      "max_history_gap_frames",
+      "history_motion_pair_count",
+      "mean_dx_norm_per_frame",
+      "mean_dy_norm_per_frame",
+      "mean_speed_norm_per_frame",
+      "last_dx_norm_per_frame",
+      "last_dy_norm_per_frame",
+      "last_speed_norm_per_frame",
+      "occluded_at_prediction",
+      "action_at_prediction",
+      "look_at_prediction",
+      "gesture_at_prediction"
+    ],
+    "model_feature_count": 21,
+    "unavailable_annotation_semantics": [
+      {
+        "feature": "action_at_prediction",
+        "tracker_observation_available": false,
+        "trained_source": "PIE frame-level action at critical_point."
+      },
+      {
+        "feature": "look_at_prediction",
+        "tracker_observation_available": false,
+        "trained_source": "PIE frame-level look at critical_point."
+      },
+      {
+        "feature": "gesture_at_prediction",
+        "tracker_observation_available": false,
+        "trained_source": "PIE frame-level gesture at critical_point; undefined values are missing."
+      }
+    ]
+  },
+  "input_record_counts": {
+    "interaction_observations_rows": 29564,
+    "interaction_observations_unique_rows": 29564,
+    "interaction_summary_rows": 1851,
+    "random_forest_prediction_records": 431,
+    "random_forest_prediction_rows": 431,
+    "track_mapping_rows": 0
+  },
+  "interpretation": "The saved model was loaded and its preprocessing contract checked, but no prediction was produced because tracker-derived interaction data do not supply compatible annotation-derived features or a ground-truth-to-tracker identity map. Set01 is also a training split.",
+  "pedestrian_and_interaction_counts": {
+    "interaction_observations": 29564,
+    "interactions_with_valid_prediction": 0,
+    "interactions_without_valid_prediction": 29564,
+    "mapped_interaction_pedestrians": 0,
+    "matched_pedestrians_with_valid_prediction": 0,
+    "unique_interaction_pairs": 2543,
+    "unique_interaction_pedestrians": 173
+  },
+  "prediction_association": {
+    "association_coverage": 0.0,
+    "available_interaction_predictions": 0,
+    "candidate_prediction_recordings": [
+      {
+        "set_id": "set04",
+        "video_id": "video_0001"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0002"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0003"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0004"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0005"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0006"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0007"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0008"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0009"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0010"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0011"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0012"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0013"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0014"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0015"
+      },
+      {
+        "set_id": "set04",
+        "video_id": "video_0016"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0001"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0002"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0003"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0004"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0005"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0006"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0007"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0008"
+      },
+      {
+        "set_id": "set06",
+        "video_id": "video_0009"
+      }
+    ],
+    "invalid_associations": {},
+    "prediction_age_capped_by_target_horizon": 30,
+    "prediction_is_never_associated_before_its_frame": true,
+    "prediction_records_outside_interaction_recordings": 431,
+    "unavailable_interaction_predictions": 29564,
+    "unavailable_reasons": {
+      "no_identity_mapping": 29564
+    }
+  },
+  "saved_model_contract": {
+    "classes": [
+      0,
+      1
+    ],
+    "classifier_count": 300,
+    "classifier_type": "sklearn.ensemble._forest.RandomForestClassifier",
+    "feature_metadata_count": 21,
+    "inference_performed": false,
+    "inference_skip_reason": "Tracker-derived features are semantically incompatible with the annotation-derived training features, and set01 is a training split.",
+    "loaded": true,
+    "model_load_warnings": [
+      {
+        "artifact_version": "1.9.1",
+        "estimator": "SimpleImputer",
+        "runtime_version": "1.9.0.",
+        "warning_type": "InconsistentVersionWarning"
+      },
+      {
+        "artifact_version": "1.9.1",
+        "estimator": "StandardScaler",
+        "runtime_version": "1.9.0.",
+        "warning_type": "InconsistentVersionWarning"
+      },
+      {
+        "artifact_version": "1.9.1",
+        "estimator": "Pipeline",
+        "runtime_version": "1.9.0.",
+        "warning_type": "InconsistentVersionWarning"
+      },
+      {
+        "artifact_version": "1.9.1",
+        "estimator": "OneHotEncoder",
+        "runtime_version": "1.9.0.",
+        "warning_type": "InconsistentVersionWarning"
+      },
+      {
+        "artifact_version": "1.9.1",
+        "estimator": "ColumnTransformer",
+        "runtime_version": "1.9.0.",
+        "warning_type": "InconsistentVersionWarning"
+      },
+      {
+        "artifact_version": "1.9.1",
+        "estimator": "DecisionTreeClassifier",
+        "runtime_version": "1.9.0.",
+        "warning_type": "InconsistentVersionWarning"
+      },
+      {
+        "artifact_version": "1.9.1",
+        "estimator": "RandomForestClassifier",
+        "runtime_version": "1.9.0.",
+        "warning_type": "InconsistentVersionWarning"
+      }
+    ],
+    "pipeline_type": "sklearn.pipeline.Pipeline",
+    "preprocessing_indices_cover_all_features": true,
+    "preprocessing_transformers": [
+      {
+        "input_features": [
+          "center_x_norm",
+          "center_y_norm",
+          "bbox_width_norm",
+          "bbox_height_norm",
+          "bbox_aspect_ratio",
+          "foot_x_norm",
+          "foot_y_norm",
+          "history_observation_count",
+          "history_coverage_ratio",
+          "max_history_gap_frames",
+          "history_motion_pair_count",
+          "mean_dx_norm_per_frame",
+          "mean_dy_norm_per_frame",
+          "mean_speed_norm_per_frame",
+          "last_dx_norm_per_frame",
+          "last_dy_norm_per_frame",
+          "last_speed_norm_per_frame",
+          "occluded_at_prediction"
+        ],
+        "input_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "name": "numeric",
+        "transformer_type": "Pipeline"
+      },
+      {
+        "input_features": [
+          "action_at_prediction",
+          "look_at_prediction",
+          "gesture_at_prediction"
+        ],
+        "input_indices": [
+          18,
+          19,
+          20
+        ],
+        "name": "categorical",
+        "transformer_type": "OneHotEncoder"
+      }
+    ],
+    "sklearn_artifact_versions_reported_during_unpickle": [
+      "1.9.1"
+    ],
+    "threshold_source": "model_metrics.json validation_metrics.random_forest.threshold",
+    "validation_threshold": 0.4019572450275602
+  },
+  "timestamp_and_track_consistency": {
+    "explicit_track_mapping_required": true,
+    "fps_for_prediction_timestamp_derivation": 30.0,
+    "interaction_timestamp_status_counts": {
+      "consistent": 29564
+    },
+    "interaction_timestamps_not_consistent_with_frame_and_fps": 0,
+    "interaction_tracks_with_explicit_mapping": 0,
+    "numeric_tracker_ids_compared_directly_to_annotation_ids": false,
+    "timestamp_tolerance_seconds": 1e-06,
+    "track_mapping_provided": false
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "generated_utc": "2026-11-05T12:29:54.802367+00:00",
+  "project_root": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development",
+  "phase": "calibration_readiness",
+  "scope": "validation split set06 only; set04 is not used",
+  "checkpoints": {
+    "pretrained_yolo11s": {
+      "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\yolo11s.pt",
+      "exists": true,
+      "size_bytes": 19313732,
+      "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "expected_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+      "hash_matches_expected": true,
+      "last_write_time_utc": "2026-11-02T15:39:59.370910+00:00"
+    },
+    "finetuned_train5_best": {
+      "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\runs\\detect\\train-5\\weights\\best.pt",
+      "exists": true,
+      "size_bytes": 19149914,
+      "sha256": "9e1d876ff9ccc49d03f43da9dbe5bb4df71c2a7514dbaad24585e4a1f855ecfb",
+      "expected_sha256": "9e1d876ff9ccc49d03f43da9dbe5bb4df71c2a7514dbaad24585e4a1f855ecfb",
+      "hash_matches_expected": true,
+      "last_write_time_utc": "2026-11-04T03:36:39.307472+00:00"
+    }
+  },
+  "previous_comparison_report": {
+    "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\detector_comparison\\DETECTOR_COMPARISON_REPORT.md",
+    "exists": true,
+    "hashes_present": {
+      "pretrained_yolo11s": true,
+      "finetuned_train5_best": true
+    }
+  },
+  "data_yaml": {
+    "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\data.yaml",
+    "exists": true,
+    "content": {
+      "path": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/artifacts/pie_detection_yolo",
+      "train": "images/train",
+      "val": "images/validation",
+      "test": "images/test",
+      "nc": "1",
+      "names": {
+        "0": "pedestrian"
+      }
+    }
+  },
+  "split_manifest": {
+    "grouping_unit": "recording_set",
+    "assignments": {
+      "train": [
+        "set01",
+        "set02",
+        "set03",
+        "set05"
+      ],
+      "validation": [
+        "set06"
+      ],
+      "test": [
+        "set04"
+      ]
+    },
+    "limitations": [
+      "Only six PIE recording sets are available, so validation and test have few independent groups.",
+      "No footage from a recording set is split across train, validation, and test.",
+      "PIE annotations target selected interactions and are not exhaustive scene labels."
+    ],
+    "frame_sampling": {
+      "frame_stride": 30,
+      "phase": "frame_index modulo stride within each video",
+      "preserve_keyframes": false,
+      "preserved_frame_events": [
+        "track start and end",
+        "action, crossing, or occlusion-state transitions"
+      ],
+      "keyframe_note": "Keyframe flags are preserved in metadata; all keyframes are not forced into the sparse image sample."
+    }
+  },
+  "validation_split": {
+    "assigned_sets": [
+      "set06"
+    ],
+    "only_set06": true,
+    "summary_validation": {
+      "sets": [
+        "set06"
+      ],
+      "images": 3911,
+      "labels": 11200
+    },
+    "test_sets": [
+      "set04"
+    ],
+    "test_is_set04_only": true
+  },
+  "validation_dataset": {
+    "images_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\validation",
+    "labels_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\labels\\validation",
+    "image_subdirs": [
+      "set06"
+    ],
+    "label_subdirs": [
+      "set06"
+    ],
+    "image_count": 3911,
+    "label_count": 3911,
+    "paired_images_without_label": [],
+    "paired_labels_without_image": [],
+    "paired_image_label_count": 3911,
+    "empty_label_files": 0,
+    "ground_truth_boxes": 11200,
+    "class_ids": {
+      "0": 11200
+    },
+    "boxes_per_image": {
+      "min": 1,
+      "median": 2.0,
+      "mean": 2.863717719253388,
+      "p95": 8.0,
+      "max": 9
+    },
+    "normalized_box_area": {
+      "min": 2.9465710956800003e-05,
+      "median": 0.0008254709767824,
+      "mean": 0.0033683436513309672,
+      "max": 0.056380421885
+    }
+  },
+  "image_properties": {
+    "sample": [
+      {
+        "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\validation\\set06\\video_0001\\frame_012963.jpg",
+        "size": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      {
+        "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\validation\\set06\\video_0001\\frame_012973.jpg",
+        "size": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      {
+        "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\images\\validation\\set06\\video_0001\\frame_012982.jpg",
+        "size": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "ultralytics": "8.4.198",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "numpy": "2.5.4",
+    "opencv": "5.0.0",
+    "cuda_available": true,
+    "cuda_version": "12.6",
+    "cudnn_version": 91002,
+    "gpu_count": 1,
+    "gpu_names": [
+      "NVIDIA GeForce RTX 4070 Laptop GPU"
+    ]
+  },
+  "models": {
+    "pretrained_yolo11s": {
+      "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\yolo11s.pt",
+      "task": "detect",
+      "class_count": 80,
+      "names": {
+        "0": "person",
+        "1": "bicycle",
+        "2": "car",
+        "3": "motorcycle",
+        "4": "airplane",
+        "5": "bus",
+        "6": "train",
+        "7": "truck",
+        "8": "boat",
+        "9": "traffic light",
+        "10": "fire hydrant",
+        "11": "stop sign",
+        "12": "parking meter",
+        "13": "bench",
+        "14": "bird",
+        "15": "cat",
+        "16": "dog",
+        "17": "horse",
+        "18": "sheep",
+        "19": "cow",
+        "20": "elephant",
+        "21": "bear",
+        "22": "zebra",
+        "23": "giraffe",
+        "24": "backpack",
+        "25": "umbrella",
+        "26": "handbag",
+        "27": "tie",
+        "28": "suitcase",
+        "29": "frisbee",
+        "30": "skis",
+        "31": "snowboard",
+        "32": "sports ball",
+        "33": "kite",
+        "34": "baseball bat",
+        "35": "baseball glove",
+        "36": "skateboard",
+        "37": "surfboard",
+        "38": "tennis racket",
+        "39": "bottle",
+        "40": "wine glass",
+        "41": "cup",
+        "42": "fork",
+        "43": "knife",
+        "44": "spoon",
+        "45": "bowl",
+        "46": "banana",
+        "47": "apple",
+        "48": "sandwich",
+        "49": "orange",
+        "50": "broccoli",
+        "51": "carrot",
+        "52": "hot dog",
+        "53": "pizza",
+        "54": "donut",
+        "55": "cake",
+        "56": "chair",
+        "57": "couch",
+        "58": "potted plant",
+        "59": "bed",
+        "60": "dining table",
+        "61": "toilet",
+        "62": "tv",
+        "63": "laptop",
+        "64": "mouse",
+        "65": "remote",
+        "66": "keyboard",
+        "67": "cell phone",
+        "68": "microwave",
+        "69": "oven",
+        "70": "toaster",
+        "71": "sink",
+        "72": "refrigerator",
+        "73": "book",
+        "74": "clock",
+        "75": "vase",
+        "76": "scissors",
+        "77": "teddy bear",
+        "78": "hair drier",
+        "79": "toothbrush"
+      },
+      "pedestrian_class_index": 0,
+      "pedestrian_class_name": "person",
+      "head_type": "Detect",
+      "stride": [
+        8.0,
+        16.0,
+        32.0
+      ]
+    },
+    "finetuned_train5_best": {
+      "path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\runs\\detect\\train-5\\weights\\best.pt",
+      "task": "detect",
+      "class_count": 1,
+      "names": {
+        "0": "pedestrian"
+      },
+      "pedestrian_class_index": 0,
+      "pedestrian_class_name": "pedestrian",
+      "head_type": "Detect",
+      "stride": [
+        8.0,
+        16.0,
+        32.0
+      ]
+    }
+  },
+  "compatibility": {
+    "issues": [],
+    "ok": true,
+    "calibration_scope": "Validation set06 only. Test set04 is explicitly out of scope."
+  }
+}

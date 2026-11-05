@@ -1,0 +1,18 @@
+Calibrating finetuned_train5_best: C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\runs\detect\train-5\weights\best.pt
+Dataset: C:\Users\vlctus\AppData\Local\Temp\opencode\smartped_detector_calibration\set06_20261105T125715Z\pie_detection_yolo\data.yaml (val/set06 only)
+status=success images=3911 gt_boxes=11200
+image_order_sha256=7421d406f800f2003c9c6a7313dd0418ce7290036730c78570439fea7ffffc95
+gt_sanity_max_abs_diff_px=0.000105
+standard_metrics={'metrics/precision(B)': 0.3599021251424365, 'metrics/recall(B)': 0.32517857142857143, 'metrics/mAP50(B)': 0.2595017606939651, 'metrics/mAP50-95(B)': 0.13816423078250548, 'fitness': 0.13816423078250548}
+baseline_conf_0.25={'threshold': 0.25, 'tp': 2456, 'fp': 2602, 'fn': 8744, 'precision': 0.48556741795175956, 'recall': 0.21928571428571428, 'f1': 0.30212818304834543, 'predicted_boxes': 5058, 'images_with_predictions': 2342}
+threshold_sweep:
+  t=0.05 tp=5564 fp=22738 fn=5636 P=0.196594 R=0.496786 F1=0.281707 pred=28302
+  t=0.10 tp=4264 fp=10198 fn=6936 P=0.294842 R=0.380714 F1=0.332320 pred=14462
+  t=0.15 tp=3465 fp=5764 fn=7735 P=0.375447 R=0.309375 F1=0.339224 pred=9229
+  t=0.20 tp=2897 fp=3760 fn=8303 P=0.435181 R=0.258661 F1=0.324467 pred=6657
+  t=0.25 tp=2456 fp=2602 fn=8744 P=0.485567 R=0.219286 F1=0.302128 pred=5058
+  t=0.30 tp=2122 fp=1926 fn=9078 P=0.524209 R=0.189464 F1=0.278332 pred=4048
+  t=0.35 tp=1858 fp=1451 fn=9342 P=0.561499 R=0.165893 F1=0.256117 pred=3309
+  t=0.40 tp=1656 fp=1163 fn=9544 P=0.587442 R=0.147857 F1=0.236251 pred=2819
+  t=0.45 tp=1454 fp=926 fn=9746 P=0.610924 R=0.129821 F1=0.214138 pred=2380
+  t=0.50 tp=1270 fp=742 fn=9930 P=0.631213 R=0.113393 F1=0.192249 pred=2012

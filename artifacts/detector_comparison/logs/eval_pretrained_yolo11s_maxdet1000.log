@@ -1,0 +1,8 @@
+Evaluating pretrained_yolo11s: C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\yolo11s.pt
+status=success images=10593
+results_dict={'metrics/precision(B)': 0.3115251968603616, 'metrics/recall(B)': 0.4037374825873262, 'metrics/mAP50(B)': 0.2236172177128881, 'metrics/mAP50-95(B)': 0.12001063812111275, 'fitness': 0.12001063812111275}
+speed_ms_per_image={'preprocess': 2.3323309355230286, 'inference': 115.7907400547499, 'loss': 0.0020632115578894153, 'postprocess': 10.80017942037363}
+fps={'inference_only': 8.636269182899817, 'preprocess_plus_inference_plus_postprocess': 7.756552808083865}
+predicted_boxes={'conf_0.001': 1328794, 'conf_0.250': 82487, 'conf_0.500': 44473}
+fixed_conf_0.25={'tp': 19179, 'fp': 63308, 'fn': 18868, 'precision': 0.23250936511207826, 'recall': 0.5040870502273503, 'f1': 0.31823385932599924, 'annotated_pedestrians_detected': 19179}
+save_dir=C:\Users\vlctus\OneDrive\Desktop\Pattern\project development\artifacts\detector_comparison\runs\pretrained_yolo11s_test_set04_maxdet1000

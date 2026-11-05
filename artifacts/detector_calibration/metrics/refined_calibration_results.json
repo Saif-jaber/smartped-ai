@@ -1,0 +1,130 @@
+{
+  "generated_utc": "2026-11-05T14:10:38.789803+00:00",
+  "integrity": {
+    "images_evaluated": 3911,
+    "ground_truth_boxes": 11200,
+    "split": "set06 validation only",
+    "test_set04_used": false,
+    "same_image_order": true,
+    "coarse_metrics_match_original_sweep": true,
+    "pretrained_checkpoint_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "finetuned_checkpoint_sha256": "9e1d876ff9ccc49d03f43da9dbe5bb4df71c2a7514dbaad24585e4a1f855ecfb"
+  },
+  "baseline": {
+    "model": "pretrained_yolo11s",
+    "confidence": 0.25,
+    "tp": 4451,
+    "fp": 16038,
+    "fn": 6749,
+    "precision": 0.21723851822929377,
+    "recall": 0.3974107142857143,
+    "f1": 0.28091766859162487,
+    "predicted_boxes": 20489
+  },
+  "fine_tuned_at_0_25": {
+    "threshold": 0.25,
+    "tp": 2456,
+    "fp": 2602,
+    "fn": 8744,
+    "precision": 0.48556741795175956,
+    "recall": 0.21928571428571428,
+    "f1": 0.30212818304834543,
+    "predicted_boxes": 5058,
+    "images_with_predictions": 2342
+  },
+  "selection_policy": "Scan every distinct stored confidence score in [0.05, 0.50] after reproducing Ultralytics greedy class-0 matching. Select the greatest precision among points whose recall is at least the pretrained set06 recall; ties prefer the higher threshold.",
+  "selected_threshold": {
+    "threshold": 0.09116236865520477,
+    "tp": 4451,
+    "fp": 11470,
+    "fn": 6749,
+    "predicted_boxes": 15921,
+    "precision": 0.27956786634005404,
+    "recall": 0.3974107142857143,
+    "f1": 0.3282327347811659
+  },
+  "target_recall": 0.3974107142857143,
+  "target_recall_achieved": true,
+  "best_f1_threshold": {
+    "threshold": 0.1254522055387497,
+    "tp": 3849,
+    "fp": 7440,
+    "fn": 7351,
+    "predicted_boxes": 11289,
+    "precision": 0.34095136858889186,
+    "recall": 0.34366071428571426,
+    "f1": 0.3423006803326071
+  },
+  "best_precision_recall_balance": {
+    "threshold": 0.12623868882656097,
+    "tp": 3830,
+    "fp": 7370,
+    "fn": 7370,
+    "predicted_boxes": 11200,
+    "precision": 0.3419642857142857,
+    "recall": 0.3419642857142857,
+    "f1": 0.3419642857142857,
+    "definition": "Smallest absolute difference between precision and recall; ties prefer higher F1 then higher threshold."
+  },
+  "refinement": {
+    "grid_min": 0.05,
+    "grid_max": 0.5,
+    "grid_step": 0.001,
+    "distinct_confidence_candidates_scanned": 26203,
+    "threshold_metrics_csv": "metrics/threshold_metrics.csv",
+    "prediction_source": "Existing saved per-image predictions; no re-inference."
+  },
+  "visual_samples": [
+    {
+      "image": "validation/set06/video_0005/frame_000571.jpg",
+      "n_boxes": 2,
+      "median_area": 4.2152560763888557e-05,
+      "occluded": 0,
+      "category": "small_or_distant",
+      "selection_reason": "At least two GT boxes; median normalized box area <= set06 25th percentile (0.00037446).",
+      "file": "visuals/set06_small_or_distant_frame_000571_comparison.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "ground_truth_boxes": 2,
+      "pretrained_predictions_at_0.25": 1,
+      "finetuned_predictions_at_0.25": 0,
+      "finetuned_predictions_at_selected_threshold": 0
+    },
+    {
+      "image": "validation/set06/video_0004/frame_009922.jpg",
+      "n_boxes": 9,
+      "median_area": 0.0005185266203703721,
+      "occluded": 8,
+      "category": "partially_occluded",
+      "selection_reason": "At least two GT boxes and >=1 PIE partial/full occlusion annotation.",
+      "file": "visuals/set06_partially_occluded_frame_009922_comparison.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "ground_truth_boxes": 9,
+      "pretrained_predictions_at_0.25": 7,
+      "finetuned_predictions_at_0.25": 1,
+      "finetuned_predictions_at_selected_threshold": 6
+    },
+    {
+      "image": "validation/set06/video_0004/frame_010023.jpg",
+      "n_boxes": 9,
+      "median_area": 0.000702512345679013,
+      "occluded": 5,
+      "category": "crowded",
+      "selection_reason": "At least nine GT pedestrian boxes in the frame.",
+      "file": "visuals/set06_crowded_frame_010023_comparison.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "ground_truth_boxes": 9,
+      "pretrained_predictions_at_0.25": 7,
+      "finetuned_predictions_at_0.25": 0,
+      "finetuned_predictions_at_selected_threshold": 5
+    }
+  ]
+}

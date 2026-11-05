@@ -1,0 +1,97 @@
+{
+  "candidate_pair_observations": 29564,
+  "candidate_unique_track_pairs": 2543,
+  "experiment": {
+    "distance_unit": "pixels",
+    "measurements_are_image_space_only": true,
+    "no_collision_or_risk_classification": true,
+    "set_ids": [
+      "set01"
+    ],
+    "video_ids": [
+      "video_0001"
+    ]
+  },
+  "inputs": {
+    "pedestrian": {
+      "duplicates_removed": 0,
+      "invalid_rows_skipped": {},
+      "rows_read": 5007,
+      "selected_observations": 5007,
+      "unique_tracks": 173
+    },
+    "vehicle": {
+      "detection_duplicates_removed": 0,
+      "detection_rows_read": 13226,
+      "final_duplicates_removed": 0,
+      "invalid_detection_rows_skipped": {},
+      "invalid_trajectory_rows_skipped": {},
+      "matched_bbox_mismatches": 0,
+      "matched_detection_trajectory_observations": 13226,
+      "matched_timestamp_mismatches": 0,
+      "selected_tracked_detection_observations": 13226,
+      "selected_trajectory_observations": 13226,
+      "tracked_detections_without_trajectory": 0,
+      "trajectory_duplicates_removed": 0,
+      "trajectory_observations_without_detection": 0,
+      "trajectory_rows_read": 13226,
+      "unique_tracks": 429,
+      "untracked_detections": 0
+    }
+  },
+  "interpretation": "Image-space interaction candidates only. No metric distance, physical velocity, TTC, collision, or risk level is inferred.",
+  "invalid_closest_approach_estimates": 364,
+  "invalid_movement_estimates": 2866,
+  "invalid_movement_reasons": {
+    "first_pair_observation": 2543,
+    "frame_gap_exceeded": 323
+  },
+  "missing_observation_statistics": {
+    "pair": {
+      "gap_count_between_pair_observations": 3676,
+      "gaps_exceeding_maximum": 323,
+      "interpretation": "Unobserved slots within an observed identity span; not proof that either object was present or detected in those frames.",
+      "unobserved_frame_slots_between_pair_observations": 24784
+    },
+    "pedestrian": {
+      "gap_count_within_observed_track_spans": 415,
+      "gaps_exceeding_maximum": 44,
+      "observation_count": 5007,
+      "track_count": 173,
+      "unobserved_frame_slots_within_track_spans": 3886
+    },
+    "vehicle": {
+      "gap_count_within_observed_track_spans": 881,
+      "gaps_exceeding_maximum": 92,
+      "observation_count": 13226,
+      "track_count": 429,
+      "unobserved_frame_slots_within_track_spans": 8734
+    }
+  },
+  "movement_analysis_invalid_persistent_pairs": 364,
+  "movement_analysis_valid_persistent_pairs": 1487,
+  "pedestrian_count": 5007,
+  "persistent_pair_count": 1851,
+  "thresholds": {
+    "max_observation_gap_frames": 15,
+    "min_observations_for_closest_approach": 3,
+    "min_observations_for_movement": 3,
+    "movement_delta_tolerance_pixels": 0.1,
+    "nearby_pixel_distance_threshold": 150.0
+  },
+  "timestamp_validation": {
+    "common_frames": 1525,
+    "consistent_frames": 1525,
+    "frame_index_is_primary_alignment_key": true,
+    "frames_with_missing_or_invalid_timestamps": 0,
+    "maximum_timestamp_spread_seconds": 0.0,
+    "mismatched_frames": 0,
+    "tolerance_seconds": 1e-06
+  },
+  "transient_pair_count": 692,
+  "unique_pedestrian_tracks": 173,
+  "unique_vehicle_tracks": 429,
+  "valid_closest_approach_estimates": 1487,
+  "valid_movement_estimates": 26698,
+  "vehicle_track_observation_count": 13226
+}

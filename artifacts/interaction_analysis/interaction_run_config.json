@@ -1,0 +1,20 @@
+{
+  "max_observation_gap_frames": 15,
+  "min_observations_for_closest_approach": 3,
+  "min_observations_for_movement": 3,
+  "movement_delta_tolerance_pixels": 0.1,
+  "output_dir": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\interaction_analysis",
+  "pedestrian_trajectory_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\trajectory_extraction\\yolo_botsort_set01_video_0001_60s\\trajectory_features.csv",
+  "pixel_distance_threshold": 150.0,
+  "set_ids": [
+    "set01"
+  ],
+  "timestamp_tolerance_seconds": 1e-06,
+  "vehicle_detection_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\vehicle_tracking\\vehicle_detections.csv",
+  "vehicle_trajectory_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\vehicle_tracking\\vehicle_trajectories.csv",
+  "video_ids": [
+    "video_0001"
+  ],
+  "video_path": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\dataset\\PIE_clips\\set01\\video_0001.mp4",
+  "visual_sample_count": 12
+}

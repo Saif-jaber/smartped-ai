@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "identifiers_not_used_as_features": [
+    "set_id",
+    "video_id",
+    "track_id",
+    "split",
+    "prediction_frame",
+    "target_start_frame",
+    "target_end_frame"
+  ],
+  "feature_columns": [
+    "center_x_norm",
+    "center_y_norm",
+    "bbox_width_norm",
+    "bbox_height_norm",
+    "bbox_aspect_ratio",
+    "foot_x_norm",
+    "foot_y_norm",
+    "history_observation_count",
+    "history_coverage_ratio",
+    "max_history_gap_frames",
+    "history_motion_pair_count",
+    "mean_dx_norm_per_frame",
+    "mean_dy_norm_per_frame",
+    "mean_speed_norm_per_frame",
+    "last_dx_norm_per_frame",
+    "last_dy_norm_per_frame",
+    "last_speed_norm_per_frame",
+    "occluded_at_prediction",
+    "action_at_prediction",
+    "look_at_prediction",
+    "gesture_at_prediction"
+  ],
+  "numeric_features": {
+    "center_x_norm": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "center_y_norm": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "bbox_width_norm": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "bbox_height_norm": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "bbox_aspect_ratio": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "foot_x_norm": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "foot_y_norm": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "history_observation_count": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "history_coverage_ratio": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "max_history_gap_frames": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "history_motion_pair_count": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "mean_dx_norm_per_frame": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "mean_dy_norm_per_frame": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "mean_speed_norm_per_frame": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "last_dx_norm_per_frame": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "last_dy_norm_per_frame": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "last_speed_norm_per_frame": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion.",
+    "occluded_at_prediction": "Computed from visible spatial boxes at or before critical_point; image-normalized geometry/motion."
+  },
+  "categorical_features": {
+    "action_at_prediction": "PIE frame-level action at critical_point.",
+    "look_at_prediction": "PIE frame-level look at critical_point.",
+    "gesture_at_prediction": "PIE frame-level gesture at critical_point; undefined values are missing."
+  },
+  "target_and_future_fields_excluded": [
+    "future spatial cross labels",
+    "crossing_point",
+    "critical_point",
+    "exp_start_point",
+    "track-level crossing outcome",
+    "intention_prob"
+  ],
+  "missing_observation_policy": "No interpolation. History count, coverage, and largest observed gap are features; missing velocity features are imputed using train-fitted medians.",
+  "pixel_motion_note": "Motion features are normalized image-space estimates, not real-world velocity."
+}

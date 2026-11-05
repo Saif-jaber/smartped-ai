@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-11-05T11:05:42.076119+00:00",
+  "original_dataset_yaml": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\pie_detection_yolo\\data.yaml",
+  "evaluation_dataset_yaml": "C:\\Users\\vlctus\\AppData\\Local\\Temp\\opencode\\smartped_detector_eval\\pie_detection_yolo\\data.yaml",
+  "evaluation_dataset_mirror": {
+    "root": "C:\\Users\\vlctus\\AppData\\Local\\Temp\\opencode\\smartped_detector_eval\\pie_detection_yolo",
+    "images": "directory junction to the original images (read-only use)",
+    "labels": "copied to temp mirror so Ultralytics *.cache files do not touch the original dataset"
+  },
+  "split": "test (set04 only)",
+  "max_det": 1000,
+  "output_tag": "_maxdet1000",
+  "evaluation_kwargs": {
+    "split": "test",
+    "imgsz": 640,
+    "batch": 16,
+    "device": "0",
+    "workers": 4,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 1000,
+    "rect": true,
+    "plots": true,
+    "verbose": true,
+    "seed": 0,
+    "deterministic": true,
+    "augment": false,
+    "agnostic_nms": false,
+    "single_cls": false,
+    "save_json": false,
+    "save_txt": false,
+    "mode": "val",
+    "task": "detect",
+    "data": "C:\\Users\\vlctus\\AppData\\Local\\Temp\\opencode\\smartped_detector_eval\\pie_detection_yolo\\data.yaml"
+  },
+  "method": {
+    "framework": "Ultralytics DetectionValidator + DetMetrics",
+    "class_restriction": "NMS restricted to class index 0 (pedestrian) for both models",
+    "ap": "Ultralytics mAP: IoU 0.50:0.05:0.95, 10 thresholds; conf=0.001; NMS IoU=0.7; max_det=1000",
+    "precision_recall_f1_reported": "Ultralytics P/R/F1 at the confidence maximizing mean F1, plus fixed conf=0.25 IoU=0.50 greedy matching P/R/F1",
+    "speed": "Ultralytics validator speed (preprocess/inference/postprocess ms per image)"
+  }
+}

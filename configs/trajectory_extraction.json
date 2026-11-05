@@ -1,0 +1,7 @@
+{
+  "fps": 30.0,
+  "max_gap_frames": 15,
+  "standing_speed_threshold_px_s": 10.0,
+  "smoothing_window_observations": 9,
+  "smoothing_min_observations": 3
+}

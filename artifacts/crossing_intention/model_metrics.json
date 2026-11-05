@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "evaluation_split": "validation",
+  "test_evaluation": "not performed",
+  "train_only_preprocessing": true,
+  "class_weighting": {
+    "logistic_regression": "balanced",
+    "random_forest": "balanced"
+  },
+  "threshold_tuning_split": "validation",
+  "validation_metrics": {
+    "majority_baseline": {
+      "threshold": 0.5,
+      "sample_count": 103,
+      "positive_count": 29,
+      "negative_count": 74,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "pr_auc_average_precision": 0.2815533980582524,
+      "confusion_matrix": {
+        "rows": "actual [negative, positive]",
+        "columns": "predicted [negative, positive]",
+        "matrix": [
+          [
+            74,
+            0
+          ],
+          [
+            29,
+            0
+          ]
+        ]
+      },
+      "per_class": {
+        "negative": {
+          "precision": 0.7184466019417476,
+          "recall": 1.0,
+          "f1": 0.8361581920903954,
+          "support": 74
+        },
+        "positive": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 29
+        }
+      },
+      "threshold_selection": "fixed majority class from training distribution",
+      "predicted_class": 0
+    },
+    "logistic_regression": {
+      "threshold": 0.30541937450960316,
+      "sample_count": 103,
+      "positive_count": 29,
+      "negative_count": 74,
+      "precision": 0.6222222222222222,
+      "recall": 0.9655172413793104,
+      "f1": 0.7567567567567568,
+      "pr_auc_average_precision": 0.6855155036144689,
+      "confusion_matrix": {
+        "rows": "actual [negative, positive]",
+        "columns": "predicted [negative, positive]",
+        "matrix": [
+          [
+            57,
+            17
+          ],
+          [
+            1,
+            28
+          ]
+        ]
+      },
+      "per_class": {
+        "negative": {
+          "precision": 0.9827586206896551,
+          "recall": 0.7702702702702703,
+          "f1": 0.8636363636363636,
+          "support": 74
+        },
+        "positive": {
+          "precision": 0.6222222222222222,
+          "recall": 0.9655172413793104,
+          "f1": 0.7567567567567568,
+          "support": 29
+        }
+      },
+      "threshold_selection": "validation positive-class F1 maximization"
+    },
+    "random_forest": {
+      "threshold": 0.4019572450275602,
+      "sample_count": 103,
+      "positive_count": 29,
+      "negative_count": 74,
+      "precision": 0.65,
+      "recall": 0.896551724137931,
+      "f1": 0.7536231884057971,
+      "pr_auc_average_precision": 0.7670143430666727,
+      "confusion_matrix": {
+        "rows": "actual [negative, positive]",
+        "columns": "predicted [negative, positive]",
+        "matrix": [
+          [
+            60,
+            14
+          ],
+          [
+            3,
+            26
+          ]
+        ]
+      },
+      "per_class": {
+        "negative": {
+          "precision": 0.9523809523809523,
+          "recall": 0.8108108108108109,
+          "f1": 0.8759124087591241,
+          "support": 74
+        },
+        "positive": {
+          "precision": 0.65,
+          "recall": 0.896551724137931,
+          "f1": 0.7536231884057971,
+          "support": 29
+        }
+      },
+      "threshold_selection": "validation positive-class F1 maximization"
+    }
+  },
+  "model_files": {
+    "logistic_regression": "logistic_regression.pkl",
+    "random_forest": "random_forest.pkl"
+  },
+  "majority_baseline": {
+    "training_class_counts": {
+      "negative": 328,
+      "positive": 164
+    },
+    "predicted_class": 0,
+    "positive_probability": 0.3333333333333333
+  }
+}

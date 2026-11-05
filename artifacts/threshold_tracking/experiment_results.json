@@ -1,0 +1,74 @@
+{
+  "generated_utc": "2026-11-05T15:00:47.929326+00:00",
+  "config": {
+    "video": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\dataset\\PIE_clips\\set01\\video_0001.mp4",
+    "duration_seconds": 60.0,
+    "frame_limit": 1800,
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "image_size": 640,
+    "pedestrian_checkpoint": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\runs\\detect\\train-5\\weights\\best.pt",
+    "pedestrian_checkpoint_sha256": "9e1d876ff9ccc49d03f43da9dbe5bb4df71c2a7514dbaad24585e4a1f855ecfb",
+    "vehicle_checkpoint": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\yolo11s.pt",
+    "vehicle_checkpoint_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "pedestrian_tracker": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\smartped_botsort.yaml",
+    "vehicle_tracker": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\smartped_vehicle_botsort.yaml",
+    "vehicle_config_source": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\configs\\vehicle_tracking.json",
+    "vehicle_confidence_threshold": 0.25,
+    "gpu_model": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "pedestrian_tracker_low_confidence_threshold": 0.1,
+    "vehicle_output_integrity": {
+      "vehicle_detections.csv": {
+        "sha256_by_run": {
+          "threshold_009116": "0d3b20f4de179bd25b9a08845bee6d2479cc0abc8d5281b9d26cd9613749f273",
+          "threshold_012545": "0d3b20f4de179bd25b9a08845bee6d2479cc0abc8d5281b9d26cd9613749f273"
+        },
+        "byte_identical_across_runs": true
+      },
+      "vehicle_trajectories.csv": {
+        "sha256_by_run": {
+          "threshold_009116": "c44a4eb4977369b98dd5939d1bfbd4182fc0cd56fd7d00248665bc8cdff877b6",
+          "threshold_012545": "c44a4eb4977369b98dd5939d1bfbd4182fc0cd56fd7d00248665bc8cdff877b6"
+        },
+        "byte_identical_across_runs": true
+      }
+    },
+    "interaction_config_source": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\configs\\interaction_analysis.json",
+    "integration_config_source": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\configs\\integration_analysis.json",
+    "execution_order": [
+      "threshold_009116",
+      "threshold_012545"
+    ],
+    "frame_range": [
+      0,
+      1799
+    ],
+    "output_directories": {
+      "threshold_009116": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_009116",
+      "threshold_012545": "C:\\Users\\vlctus\\OneDrive\\Desktop\\Pattern\\project development\\artifacts\\threshold_tracking\\threshold_012545"
+    }
+  },
+  "run_statuses": {
+    "threshold_009116": "success",
+    "threshold_012545": "success"
+  },
+  "failures": {},
+  "visual_error": null,
+  "vehicle_output_integrity": {
+    "vehicle_detections.csv": {
+      "sha256_by_run": {
+        "threshold_009116": "0d3b20f4de179bd25b9a08845bee6d2479cc0abc8d5281b9d26cd9613749f273",
+        "threshold_012545": "0d3b20f4de179bd25b9a08845bee6d2479cc0abc8d5281b9d26cd9613749f273"
+      },
+      "byte_identical_across_runs": true
+    },
+    "vehicle_trajectories.csv": {
+      "sha256_by_run": {
+        "threshold_009116": "c44a4eb4977369b98dd5939d1bfbd4182fc0cd56fd7d00248665bc8cdff877b6",
+        "threshold_012545": "c44a4eb4977369b98dd5939d1bfbd4182fc0cd56fd7d00248665bc8cdff877b6"
+      },
+      "byte_identical_across_runs": true
+    }
+  }
+}

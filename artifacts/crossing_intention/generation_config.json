@@ -1,0 +1,60 @@
+{
+  "fps": 30,
+  "history_window_frames": 30,
+  "prediction_horizon_frames": 30,
+  "max_motion_gap_frames": 15,
+  "random_state": 42,
+  "split_assignments": {
+    "train": [
+      "set01",
+      "set02",
+      "set03",
+      "set05"
+    ],
+    "validation": [
+      "set06"
+    ],
+    "test": [
+      "set04"
+    ]
+  },
+  "expected_sample_counts": {
+    "train": {
+      "total": 492,
+      "positive": 164,
+      "negative": 328
+    },
+    "validation": {
+      "total": 103,
+      "positive": 29,
+      "negative": 74
+    },
+    "test": {
+      "total": 328,
+      "positive": 90,
+      "negative": 238
+    }
+  },
+  "models": {
+    "logistic_regression": {
+      "class_weight": "balanced",
+      "max_iter": 3000
+    },
+    "random_forest": {
+      "class_weight": "balanced",
+      "n_estimators": 300,
+      "min_samples_leaf": 2
+    }
+  },
+  "dataset_root": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/dataset",
+  "output_dir": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/artifacts/crossing_intention",
+  "source_config": "C:/Users/vlctus/OneDrive/Desktop/Pattern/project development/configs/crossing_intention.json",
+  "target_definition": {
+    "prediction_moment": "critical_point",
+    "horizon_frames": 30,
+    "positive": "at least one visible future frame labeled crossing",
+    "negative": "all future horizon frames visible and labeled not-crossing",
+    "already_crossing_policy": "exclude if a visible crossing label occurs from exp_start_point through critical_point",
+    "crossing_irrelevant_policy": "exclude"
+  }
+}

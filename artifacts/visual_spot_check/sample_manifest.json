@@ -1,0 +1,1624 @@
+[
+  {
+    "set_id": "set01",
+    "video_id": "video_0001",
+    "frame_index": 1013,
+    "alignment": "XML/CSV aligned",
+    "image": "set01_video_0001_frame_001013.jpg",
+    "visible_box_count": 8,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "1_1_1",
+      "1_1_11v",
+      "1_1_1tl",
+      "1_1_1v",
+      "1_1_2",
+      "1_1_2tl",
+      "1_1_2v",
+      "1_1_3v"
+    ],
+    "labels": [
+      "pedestrian:action=standing",
+      "pedestrian:cross=not-crossing"
+    ],
+    "visual_status": "reviewed_correct",
+    "finding": "Standing/not-crossing labels and pedestrian/vehicle boxes correspond to visible objects; IDs are displayed and no obvious mismatch was seen.",
+    "likely_cause": "No issue observed in this still; XML and CSV frame membership matches.",
+    "sample_categories": [
+      "multiple_pedestrians_and_vehicles",
+      "not_crossing",
+      "standing"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set01",
+    "video_id": "video_0001",
+    "frame_index": 1134,
+    "alignment": "XML/CSV aligned",
+    "image": "set01_video_0001_frame_001134.jpg",
+    "visible_box_count": 11,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "1_1_1",
+      "1_1_11v",
+      "1_1_13",
+      "1_1_1c",
+      "1_1_1tl",
+      "1_1_2",
+      "1_1_2tl",
+      "1_1_3v",
+      "1_1_4v",
+      "1_1_5v",
+      "1_1_6v"
+    ],
+    "labels": [
+      "pedestrian:action=standing",
+      "pedestrian:cross=not-crossing"
+    ],
+    "visual_status": "reviewed_correct",
+    "finding": "Partially occluded pedestrian annotations fall on visible people at the right edge; occlusion is represented. Fine box tightness remains a spot-check limitation.",
+    "likely_cause": "No issue observed in this still; XML and CSV frame membership matches.",
+    "sample_categories": [
+      "occluded_or_partial"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set01",
+    "video_id": "video_0001",
+    "frame_index": 1474,
+    "alignment": "XML/CSV aligned",
+    "image": "set01_video_0001_frame_001474.jpg",
+    "visible_box_count": 3,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "1_1_11v",
+      "1_1_5",
+      "1_1_6"
+    ],
+    "labels": [
+      "pedestrian:action=walking",
+      "pedestrian:cross=crossing-irrelevant"
+    ],
+    "visual_status": "reviewed_correct",
+    "finding": "Walking pedestrian boxes align with visible pedestrians; the distinct crossing labels are available in the overlay.",
+    "likely_cause": "No issue observed in this still; XML and CSV frame membership matches.",
+    "sample_categories": [
+      "walking"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set01",
+    "video_id": "video_0002",
+    "frame_index": 5192,
+    "alignment": "XML/CSV aligned",
+    "image": "set01_video_0002_frame_005192.jpg",
+    "visible_box_count": 3,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "1_2_22",
+      "1_2_23",
+      "1_2_8c"
+    ],
+    "labels": [
+      "pedestrian:action=walking",
+      "pedestrian:cross=crossing"
+    ],
+    "visual_status": "reviewed_correct",
+    "finding": "Crossing-labeled pedestrian boxes fall on visible pedestrians near the roadside; no obvious spatial or ID inconsistency was seen.",
+    "likely_cause": "No issue observed in this still; XML and CSV frame membership matches.",
+    "sample_categories": [
+      "crossing"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set02",
+    "video_id": "video_0002",
+    "frame_index": 2105,
+    "alignment": "XML-only",
+    "image": "set02_video_0002_frame_002105.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "2_2_31c"
+    ],
+    "labels": [],
+    "visual_status": "reviewed_uncertain",
+    "finding": "The crosswalk box lies on the distant road area; its extent is not confirmed from the full frame.",
+    "likely_cause": "Likely CSV frame-scope mismatch: the XML-only object is a crosswalk; confirm the CSV contract.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set02",
+    "video_id": "video_0002",
+    "frame_index": 2106,
+    "alignment": "XML/CSV aligned",
+    "image": "set02_video_0002_frame_002106.jpg",
+    "visible_box_count": 6,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "2_2_146",
+      "2_2_165v",
+      "2_2_166v",
+      "2_2_31c",
+      "2_2_37tl",
+      "2_2_38tl"
+    ],
+    "labels": [
+      "pedestrian:action=standing",
+      "pedestrian:cross=not-crossing"
+    ],
+    "visual_status": "reviewed_uncertain",
+    "finding": "The neighboring aligned frame contains multiple spatial labels crowded near the distant intersection; no obvious one-frame shift is visible, but individual small boxes are hard to judge.",
+    "likely_cause": "Visual density and small distant objects limit confidence; XML/CSV frame membership itself matches.",
+    "sample_categories": [
+      "aligned_mismatch_control"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set03",
+    "video_id": "video_0005",
+    "frame_index": 3338,
+    "alignment": "XML/CSV aligned",
+    "image": "set03_video_0005_frame_003338.jpg",
+    "visible_box_count": 6,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "3_5_114tl",
+      "3_5_115tl",
+      "3_5_116tl",
+      "3_5_117tl",
+      "3_5_397",
+      "3_5_78c"
+    ],
+    "labels": [
+      "pedestrian:action=walking",
+      "pedestrian:cross=crossing"
+    ],
+    "visual_status": "reviewed_uncertain",
+    "finding": "The neighboring aligned frame has pedestrian and crosswalk overlays in the expected scene region; the broad crosswalk extent needs the annotation policy for a definitive judgment.",
+    "likely_cause": "Broad scene-level crosswalk annotation may be intentional; verify expected box scope. XML/CSV membership matches.",
+    "sample_categories": [
+      "aligned_mismatch_control"
+    ],
+    "video_frame_count": 18300
+  },
+  {
+    "set_id": "set03",
+    "video_id": "video_0005",
+    "frame_index": 3339,
+    "alignment": "XML-only",
+    "image": "set03_video_0005_frame_003339.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 5,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "3_5_78c"
+    ],
+    "labels": [],
+    "visual_status": "reviewed_uncertain",
+    "finding": "The crosswalk box is broad over the lower roadway; the pedestrian track is outside and not drawable. The frame does not establish a temporal offset; verify the crosswalk extent against policy.",
+    "likely_cause": "Likely CSV scope mismatch or omitted index: visible XML content is the crosswalk and the pedestrian is marked outside.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18300
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5229,
+    "alignment": "XML/CSV aligned",
+    "image": "set06_video_0002_frame_005229.jpg",
+    "visible_box_count": 3,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_107s",
+      "6_2_1396v",
+      "6_2_1769"
+    ],
+    "labels": [
+      "pedestrian:action=walking",
+      "pedestrian:cross=not-crossing"
+    ],
+    "visual_status": "reviewed_correct",
+    "finding": "The aligned control frame shows pedestrian, vehicle, and sign boxes on corresponding visible objects; no obvious temporal displacement was seen.",
+    "likely_cause": "No issue observed in this still; XML and CSV both include frame 5229.",
+    "sample_categories": [
+      "aligned_mismatch_control"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5260,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005260.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "reviewed_uncertain",
+    "finding": "A vehicle box is visible near the right image edge and appears to cover a vehicle. This sample cannot confirm the box extent or the full 50-frame track.",
+    "likely_cause": "Likely CSV scope mismatch or omission of a vehicle-only annotation interval; check the CSV coverage definition.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5261,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005261.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5262,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005262.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5263,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005263.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5264,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005264.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5265,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005265.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5266,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005266.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5267,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005267.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5268,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005268.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5269,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005269.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5270,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005270.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5271,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005271.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5272,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005272.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5273,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005273.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5274,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005274.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5275,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005275.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5276,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005276.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5277,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005277.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5278,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005278.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5279,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005279.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5280,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005280.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5281,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005281.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5282,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005282.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5283,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005283.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5284,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005284.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5285,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005285.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "reviewed_uncertain",
+    "finding": "The annotated vehicle remains visible near the right edge; the box is plausible, but its tightness and track identity need review across the interval.",
+    "likely_cause": "Likely CSV scope mismatch or omission of a vehicle-only annotation interval; check the CSV coverage definition.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5286,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005286.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5287,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005287.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5288,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005288.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5289,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005289.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5290,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005290.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5291,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005291.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5292,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005292.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5293,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005293.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5294,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005294.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5295,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005295.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5296,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005296.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5297,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005297.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5298,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005298.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5299,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005299.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5300,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005300.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5301,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005301.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5302,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005302.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5303,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005303.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5304,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005304.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5305,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005305.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5306,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005306.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5307,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005307.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5308,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005308.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "pending_manual_review",
+    "finding": "Visible spatial annotation is present in XML but this frame is absent from the CSV; video frame decoded. Box-to-object match requires review.",
+    "likely_cause": "Possible CSV scope mismatch, export omission, or vehicle-annotation interval outside the CSV's intended frame coverage.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5309,
+    "alignment": "XML-only",
+    "image": "set06_video_0002_frame_005309.jpg",
+    "visible_box_count": 1,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_1415v"
+    ],
+    "labels": [],
+    "visual_status": "reviewed_uncertain",
+    "finding": "The last frame of the reported interval shows a vehicle box near the right edge. No clear temporal displacement is visible in this still, but interval continuity remains unverified.",
+    "likely_cause": "Likely CSV scope mismatch or omission of a vehicle-only annotation interval; check the CSV coverage definition.",
+    "sample_categories": [
+      "reported_xml_only_mismatch"
+    ],
+    "video_frame_count": 18000
+  },
+  {
+    "set_id": "set06",
+    "video_id": "video_0002",
+    "frame_index": 5310,
+    "alignment": "XML/CSV aligned",
+    "image": "set06_video_0002_frame_005310.jpg",
+    "visible_box_count": 4,
+    "outside_box_count": 0,
+    "missing_bbox_count": 0,
+    "invalid_bbox_count": 0,
+    "out_of_image_bbox_count": 0,
+    "missing_id_count": 0,
+    "duplicate_id_count": 0,
+    "pedestrian_label_gaps": 0,
+    "ids": [
+      "6_2_107s",
+      "6_2_1415v",
+      "6_2_1769",
+      "6_2_306c"
+    ],
+    "labels": [
+      "pedestrian:action=walking",
+      "pedestrian:cross=crossing"
+    ],
+    "visual_status": "pending_manual_review",
+    "finding": "",
+    "likely_cause": "",
+    "sample_categories": [
+      "aligned_mismatch_control"
+    ],
+    "video_frame_count": 18000
+  }
+]

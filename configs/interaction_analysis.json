@@ -1,0 +1,16 @@
+{
+  "pedestrian_trajectory_path": "../artifacts/trajectory_extraction/yolo_botsort_set01_video_0001_60s/trajectory_features.csv",
+  "vehicle_detection_path": "../artifacts/vehicle_tracking/vehicle_detections.csv",
+  "vehicle_trajectory_path": "../artifacts/vehicle_tracking/vehicle_trajectories.csv",
+  "video_path": "../dataset/PIE_clips/set01/video_0001.mp4",
+  "output_dir": "../artifacts/interaction_analysis",
+  "set_ids": ["set01"],
+  "video_ids": ["video_0001"],
+  "max_observation_gap_frames": 15,
+  "min_observations_for_movement": 3,
+  "min_observations_for_closest_approach": 3,
+  "pixel_distance_threshold": 150.0,
+  "timestamp_tolerance_seconds": 0.000001,
+  "movement_delta_tolerance_pixels": 0.1,
+  "visual_sample_count": 12
+}

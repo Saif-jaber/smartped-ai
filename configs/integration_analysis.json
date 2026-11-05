@@ -1,0 +1,18 @@
+{
+  "interaction_observations_path": "../artifacts/interaction_analysis/interaction_observations.csv",
+  "interaction_summary_path": "../artifacts/interaction_analysis/interaction_summary.csv",
+  "interaction_run_config_path": "../artifacts/interaction_analysis/interaction_run_config.json",
+  "random_forest_model_path": "../artifacts/crossing_intention/random_forest.pkl",
+  "feature_metadata_path": "../artifacts/crossing_intention/feature_metadata.json",
+  "model_metrics_path": "../artifacts/crossing_intention/model_metrics.json",
+  "generation_config_path": "../artifacts/crossing_intention/generation_config.json",
+  "validation_predictions_path": "../artifacts/crossing_intention/validation_predictions.csv",
+  "test_predictions_path": "../artifacts/crossing_intention/test_predictions.csv",
+  "track_mapping_path": null,
+  "output_dir": "../artifacts/integrated_analysis",
+  "expected_model_name": "random_forest",
+  "max_prediction_age_frames": 30,
+  "fps": 30.0,
+  "timestamp_tolerance_seconds": 0.000001,
+  "minimum_observations_for_closest_approach": 3
+}
